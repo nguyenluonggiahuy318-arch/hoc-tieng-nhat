@@ -28,28 +28,32 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       count: ${{ steps.count.outputs.count }}
+      has_secret: ${{ steps.secret.outputs.has_secret }}
     steps:
       - uses: actions/checkout@v7
       - id: count
         run: echo "count=$(find inbox -maxdepth 1 -type f ! -name README.md ! -name .gitkeep | wc -l)" >> "$GITHUB_OUTPUT"
+      - id: secret
+        env:
+          OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          APIKEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$OAUTH" ] || [ -n "$APIKEY" ]; then echo "has_secret=true" >> "$GITHUB_OUTPUT"; else echo "has_secret=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Chưa cài xử lý tự động
+        if: steps.count.outputs.count != '0' && steps.secret.outputs.has_secret != 'true'
+        run: |
+          echo "### Đã nhận ${{ steps.count.outputs.count }} file trong inbox/" >> "$GITHUB_STEP_SUMMARY"
+          echo "Chưa có secret CLAUDE_CODE_OAUTH_TOKEN nên chưa tự xử lý. Mở Claude Code (repo hoc-tieng-nhat) và gõ /cap-nhat, hoặc cài secret theo README." >> "$GITHUB_STEP_SUMMARY"
+          echo "::notice::Đã nhận file trong inbox/. Chưa cài CLAUDE_CODE_OAUTH_TOKEN — mở Claude Code và gõ /cap-nhat để xử lý."
 
   cap-nhat:
     needs: kiem-tra-inbox
-    if: needs.kiem-tra-inbox.outputs.count != '0'
+    if: needs.kiem-tra-inbox.outputs.count != '0' && needs.kiem-tra-inbox.outputs.has_secret == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 75
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
     steps:
-      - name: Kiểm tra secret
-        env:
-          OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          APIKEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -z "$OAUTH" ] && [ -z "$APIKEY" ]; then
-            echo "::error::Chưa có secret CLAUDE_CODE_OAUTH_TOKEN (hoặc ANTHROPIC_API_KEY). Xem README, mục 'Cập nhật bài từ điện thoại'."
-            exit 1
-          fi
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0

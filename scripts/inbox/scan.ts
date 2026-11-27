@@ -14,6 +14,7 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 import { strFromU8, unzipSync } from 'fflate';
 import { ROOT } from '../lib/content';
+import { BLANK_STD, DEFAULT_THRESHOLD, SIG_H, SIG_W, changedRatio, fmtTime, intervalFor, parseFrameFileName, stdDev } from '../../src/lib/frameDiff';
 
 const INBOX = path.join(ROOT, 'inbox');
 const WORK = path.join(INBOX, '.work');
@@ -21,6 +22,7 @@ const VIDEO = /\.(mp4|mov|m4v|webm|mkv|avi)$/i;
 const IMAGE = /\.(png|jpe?g|webp|gif|bmp|heic|heif)$/i;
 const PDF = /\.pdf$/i;
 const DOCX = /\.docx$/i;
+const NOTE = /\.(txt|md)$/i;
 
 const argv = process.argv.slice(2);
 const flag = (name: string) => argv.includes('--' + name);
@@ -31,7 +33,7 @@ const opt = (name: string) => {
 const FORCE = flag('force');
 const NO_WHISPER = flag('no-whisper');
 /** Tỉ lệ ô thay đổi tối thiểu để coi là slide mới (0.06 = 6% số ô). */
-const THRESHOLD = parseFloat(opt('threshold') ?? '0.06');
+const THRESHOLD = parseFloat(opt('threshold') ?? String(DEFAULT_THRESHOLD));
 
 interface Tools {
   ffmpeg: boolean;
@@ -44,7 +46,9 @@ interface Tools {
 
 export interface Entry {
   file: string;
-  kind: 'video' | 'pdf' | 'image' | 'docx' | 'other';
+  /** Mọi file gốc thuộc mục này (nhiều khung ảnh của cùng một video gửi từ web). */
+  files?: string[];
+  kind: 'video' | 'pdf' | 'image' | 'docx' | 'note' | 'other';
   sizeMB: number;
   workDir: string;
   /** Ảnh cần đọc (ảnh lưới của video, trang PDF scan, ảnh gốc, ảnh trong docx). */
@@ -83,7 +87,6 @@ const slug = (name: string) =>
     .replace(/^-|-$/g, '')
     .slice(0, 60) || 'file';
 
-const fmtTime = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
 
 // ------------------------------------------------------------------ đoán số bài
 
@@ -120,40 +123,13 @@ export function lessonHints(text: string, from: string): { lesson: number; from:
 
 // ------------------------------------------------------------------ video
 
-// Chữ ký khung hình: ảnh xám 256×144 chia lưới 16×9 ô (mỗi ô 16×16 px).
-const GW = 16, GH = 9, CELL = 16;
+/** Ảnh xám SIG_W×SIG_H của một khung (đọc bằng sharp). */
 export async function frameSignature(file: string): Promise<{ cells: Float32Array; std: number }> {
-  const data = await sharp(file).resize(GW * CELL, GH * CELL, { fit: 'fill' }).grayscale().raw().toBuffer();
-  const cells = new Float32Array(GW * GH * CELL * CELL);
-  let sum = 0;
-  for (let i = 0; i < data.length; i++) {
-    cells[i] = data[i];
-    sum += data[i];
-  }
-  const mean = sum / data.length;
-  let sq = 0;
-  for (const v of data) sq += (v - mean) ** 2;
-  return { cells, std: Math.sqrt(sq / data.length) };
+  const data = await sharp(file).resize(SIG_W, SIG_H, { fit: 'fill' }).grayscale().raw().toBuffer();
+  const cells = Float32Array.from(data);
+  return { cells, std: stdDev(cells) };
 }
-/**
- * Tỉ lệ ô (trong lưới 16×9) thay đổi rõ giữa hai khung. Slide mới làm đổi nhiều ô; khung webcam nhỏ
- * ở góc hay con trỏ chuột chỉ đổi vài ô → vẫn coi là cùng một slide.
- */
-export function changedRatio(a: Float32Array, b: Float32Array): number {
-  const W = GW * CELL;
-  let changed = 0;
-  for (let gy = 0; gy < GH; gy++)
-    for (let gx = 0; gx < GW; gx++) {
-      let d = 0;
-      for (let y = 0; y < CELL; y++)
-        for (let x = 0; x < CELL; x++) {
-          const i = (gy * CELL + y) * W + gx * CELL + x;
-          d += Math.abs(a[i] - b[i]);
-        }
-      if (d / (CELL * CELL) > 6) changed++;
-    }
-  return changed / (GW * GH);
-}
+export { changedRatio };
 
 async function contactSheets(frames: { file: string; t: number }[], outDir: string, prefix: string): Promise<string[]> {
   if (!frames.length) return [];
@@ -198,7 +174,7 @@ async function processVideo(src: string, e: Entry, tools: Tools) {
   const probe = run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src]);
   const dur = parseFloat(probe.stdout.trim()) || 0;
   e.durationSec = Math.round(dur);
-  const interval = Math.min(15, Math.max(8, parseFloat(opt('interval') ?? '') || (dur < 600 ? 8 : dur > 2400 ? 15 : 10)));
+  const interval = Math.min(15, Math.max(8, parseFloat(opt('interval') ?? '') || intervalFor(dur)));
   e.intervalSec = interval;
   const framesDir = path.join(e.workDir, 'frames');
   fs.rmSync(framesDir, { recursive: true, force: true });
@@ -219,7 +195,7 @@ async function processVideo(src: string, e: Entry, tools: Tools) {
   for (let i = 0; i < all.length; i++) {
     const file = path.join(framesDir, all[i]);
     const { cells, std } = await frameSignature(file);
-    if (std < 4) continue;
+    if (std < BLANK_STD) continue;
     if (last && changedRatio(last, cells) < THRESHOLD) continue;
     last = cells;
     kept.push({ file, t: i * interval });
@@ -366,9 +342,42 @@ async function main() {
     return;
   }
   const entries: Entry[] = [];
+  // Khung hình đã cắt sẵn trên điện thoại (trang "Gửi bài" của web): gom theo video
+  const frameGroups = new Map<string, { name: string; t: number; index: number }[]>();
   for (const name of inputs) {
+    const f = parseFrameFileName(name);
+    if (!f) continue;
+    if (!frameGroups.has(f.prefix)) frameGroups.set(f.prefix, []);
+    frameGroups.get(f.prefix)!.push({ name, t: f.t, index: f.index });
+  }
+  for (const [prefix, list] of frameGroups) {
+    list.sort((a, b) => a.index - b.index);
+    const workDir = path.join(WORK, slug(prefix) + '-khung');
+    fs.rmSync(workDir, { recursive: true, force: true });
+    fs.mkdirSync(workDir, { recursive: true });
+    const files = list.map((x) => rel(path.join(INBOX, x.name)));
+    const e: Entry = {
+      file: files[0],
+      files,
+      kind: 'video',
+      sizeMB: +(list.reduce((a, x) => a + fs.statSync(path.join(INBOX, x.name)).size, 0) / 1048576).toFixed(1),
+      workDir: rel(workDir),
+      images: [],
+      texts: [],
+      framesKept: list.length,
+      slidesDir: 'inbox/',
+      transcript: null,
+      lessonHints: lessonHints(prefix, 'tên video'),
+      notes: ['Khung hình đã được cắt sẵn trên điện thoại (gửi từ trang "Gửi bài" của web) — chỉ có nội dung slide, không có lời giảng.'],
+    };
+    console.log(`• ${prefix} (${list.length} khung hình gửi từ web) …`);
+    e.images = (await contactSheets(list.map((x) => ({ file: path.join(INBOX, x.name), t: x.t })), workDir, 'luoi')).map(rel);
+    entries.push(e);
+  }
+  for (const name of inputs) {
+    if (parseFrameFileName(name)) continue;
     const src = path.join(INBOX, name);
-    const kind: Entry['kind'] = VIDEO.test(name) ? 'video' : PDF.test(name) ? 'pdf' : IMAGE.test(name) ? 'image' : DOCX.test(name) ? 'docx' : 'other';
+    const kind: Entry['kind'] = VIDEO.test(name) ? 'video' : PDF.test(name) ? 'pdf' : IMAGE.test(name) ? 'image' : DOCX.test(name) ? 'docx' : NOTE.test(name) ? 'note' : 'other';
     const workDir = path.join(WORK, slug(name));
     const cached = path.join(workDir, 'entry.json');
     if (!FORCE && fs.existsSync(cached)) {
@@ -388,6 +397,10 @@ async function main() {
       else if (kind === 'pdf') processPdf(src, e, tools);
       else if (kind === 'image') await processImage(src, e, tools);
       else if (kind === 'docx') processDocx(src, e);
+      else if (kind === 'note') {
+        e.texts.push(rel(src));
+        e.notes.push('Ghi chú của người dùng (gửi từ web) — đọc và làm theo (ví dụ số bài).');
+      }
       else e.notes.push('Không hỗ trợ loại file này (chỉ nhận mp4, mov, png, jpg, pdf, docx…). Bỏ qua.');
     } catch (err) {
       e.notes.push('Lỗi khi xử lý: ' + (err as Error).message);
@@ -405,7 +418,8 @@ async function main() {
   const votes = new Map<number, number>();
   for (const e of entries) {
     console.log(`\n## ${e.file} — ${e.kind}${e.durationSec ? `, ${fmtTime(e.durationSec)}` : ''}`);
-    if (e.kind === 'video') console.log(`   khung hình: cắt ${e.framesExtracted ?? 0} (mỗi ${e.intervalSec}s), giữ ${e.framesKept ?? 0} khung khác nhau → ${e.images.length} ảnh lưới; từng slide: ${e.slidesDir}`);
+    if (e.kind === 'video' && e.files) console.log(`   ${e.framesKept} khung hình gửi từ web → ${e.images.length} ảnh lưới; từng khung: ${e.files[0]} …`);
+    else if (e.kind === 'video') console.log(`   khung hình: cắt ${e.framesExtracted ?? 0} (mỗi ${e.intervalSec}s), giữ ${e.framesKept ?? 0} khung khác nhau → ${e.images.length} ảnh lưới; từng slide: ${e.slidesDir}`);
     if (e.images.length) console.log('   ẢNH CẦN ĐỌC:\n' + e.images.map((x) => '     - ' + x).join('\n'));
     if (e.texts.length) console.log('   CHỮ ĐÃ TRÍCH:\n' + e.texts.map((x) => '     - ' + x).join('\n'));
     for (const n of e.notes) console.log('   ⚠ ' + n);

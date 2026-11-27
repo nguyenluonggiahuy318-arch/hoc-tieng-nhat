@@ -17,9 +17,15 @@ Kiểm tra bằng `echo "$CAP_NHAT_CI"`.
 
 ## 1. Tìm file mới và trích nội dung
 
+**Lấy tài liệu gửi từ web**: nếu không ở chế độ CI, chạy `git pull --ff-only` trước — tài liệu gửi từ trang
+"📤 Gửi bài" của web nằm trong `inbox/` trên GitHub.
+
 **File gửi kèm trong tin nhắn** (dùng Claude Code trên web / điện thoại): nếu tin nhắn có file đính kèm
 (đường dẫn dạng `/root/.claude/uploads/…`), chép **tất cả** vào `inbox/` trước, giữ nguyên tên file:
-`cp "<đường dẫn file>" inbox/`. Không bao giờ commit file trong `inbox/`.
+`cp "<đường dẫn file>" inbox/`. Không tự `git add` file trong `inbox/`.
+
+**Ghi chú từ web**: file `inbox/ghi-chu-*.txt` là ghi chú người dùng gửi kèm (số bài, ghi chú) — đọc và làm theo.
+Ảnh `*-khung-NNN-*.jpg` là khung hình video đã cắt sẵn trên điện thoại; script tự gom thành ảnh lưới như video.
 
 ```bash
 npm run inbox:scan
@@ -109,6 +115,7 @@ npm run inbox:done
 ```
 
 Chuyển file đã xử lý sang `inbox/done/` (không commit — video nặng) và in "Nội dung commit gợi ý".
+File đã được đưa lên GitHub (gửi từ web) sẽ tự được gỡ khỏi git (`git rm --cached`) — commit ở bước 8 sẽ xoá chúng khỏi repo.
 
 ## 8. Commit & deploy (bỏ qua ở chế độ CI)
 

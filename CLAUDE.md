@@ -19,7 +19,7 @@ src/lib/                     logic thuần: kana, romaji, numbers, schema (zod),
 src/views/                   các màn hình;  src/components/ thành phần dùng chung;  src/state.ts trạng thái chung
 scripts/                     validate, merge (gộp nội dung), stats, inbox/scan + inbox/done (xử lý tài liệu)
 tests/unit/                  vitest;  tests/e2e/ Playwright (Chrome, Safari/WebKit, iPhone 13, Pixel 7)
-inbox/                       tài liệu bài giảng mới (không commit);  .claude/commands/cap-nhat.md lệnh /cap-nhat
+inbox/                       tài liệu bài giảng mới (chỉ gửi từ web mới nằm trên GitHub, xử lý xong thì gỡ);  .claude/commands/cap-nhat.md lệnh /cap-nhat
 ```
 
 ## Định dạng `content/lessons/bai-N.json`
@@ -87,6 +87,12 @@ chỉ cần sửa JSON (và thêm test cách đọc trong `tests/unit/numbers.te
 - Sự kiện composition (IME) phải gắn bằng `addEventListener` (Preact không map `onCompositionStart`).
 - Phím tắt: `useHotkeys` (1–4 chọn đáp án, Enter câu tiếp, Space lật thẻ).
 - Giao diện mobile-first; ô nhập chữ cỡ ≥ 16px (Safari iPhone không tự phóng to).
+- Trang **📤 Gửi bài** (`src/views/Upload.tsx`, `src/lib/github.ts`, `src/lib/videoFrames.ts`): gửi tài liệu vào `inbox/` của repo
+  bằng GitHub API (Git Data API, một commit). Mã GitHub lưu với tiền tố `hn-secret.` — **không bao giờ** đưa vào file xuất tiến độ.
+  Video được cắt khung ngay trên trình duyệt bằng cùng thuật toán với `scripts/inbox/scan.ts` (`src/lib/frameDiff.ts`) và gửi thành
+  ảnh `<video>-khung-NNN-MmSSs.jpg`; kèm ghi chú `inbox/ghi-chu-*.txt` (số bài, ghi chú).
+- Content-Security-Policy được chèn lúc build (`vite.config.ts`): chỉ cho phép `'self'`, `https://api.github.com` và Google Fonts.
+  Thêm dịch vụ ngoài mới thì phải sửa CSP ở đó.
 
 ## Lệnh
 

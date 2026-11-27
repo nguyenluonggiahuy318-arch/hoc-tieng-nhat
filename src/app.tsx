@@ -15,6 +15,7 @@ import { NumbersView } from './views/Numbers';
 import { LoanwordsView } from './views/Loanwords';
 import { TipsView } from './views/Tips';
 import { SettingsView } from './views/Settings';
+import { UploadView } from './views/Upload';
 
 interface ViewDef {
   id: string;
@@ -32,6 +33,7 @@ export const VIEWS: ViewDef[] = [
   { id: 'so-dem', label: 'Số đếm', alias: ['so'], C: NumbersView },
   { id: 'tu-muon', label: 'Từ mượn', alias: ['words'], C: LoanwordsView },
   { id: 'de-nham', label: 'Dễ nhầm & quy tắc', alias: ['tips'], C: TipsView },
+  { id: 'gui-bai', label: '📤 Gửi bài', alias: ['upload'], C: UploadView as ComponentType<{ active: boolean }> },
   { id: 'cai-dat', label: 'Cài đặt', alias: ['settings'], C: SettingsView as ComponentType<{ active: boolean }> },
 ];
 

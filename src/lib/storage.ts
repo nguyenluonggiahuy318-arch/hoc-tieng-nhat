@@ -89,3 +89,23 @@ export function importProgress(text: string): ImportResult {
   }
   return { ok: true, keys: n, exportedAt: String(p.exportedAt ?? '') };
 }
+
+// ---------------------------------------------------------------- dữ liệu bí mật (mã GitHub)
+// Lưu với tiền tố khác ("hn-secret.") để KHÔNG bao giờ nằm trong file xuất tiến độ.
+const SECRET = 'hn-secret.';
+
+export function loadSecret(key: string): string {
+  try {
+    return localStorage.getItem(SECRET + key) ?? '';
+  } catch {
+    return '';
+  }
+}
+export function storeSecret(key: string, value: string) {
+  try {
+    if (value) localStorage.setItem(SECRET + key, value);
+    else localStorage.removeItem(SECRET + key);
+  } catch {
+    /* bị chặn */
+  }
+}

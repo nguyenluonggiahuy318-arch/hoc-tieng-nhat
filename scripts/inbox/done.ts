@@ -18,11 +18,12 @@ if (!fs.existsSync(manifestPath)) {
   console.log('Chưa có inbox/.work/manifest.json — hãy chạy npm run inbox:scan trước.');
   process.exit(0);
 }
-const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8')) as { files: { file: string; workDir: string }[] };
+const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8')) as { files: { file: string; files?: string[]; workDir: string }[] };
 fs.mkdirSync(DONE, { recursive: true });
 const stamp = new Date().toISOString().slice(0, 10);
 let moved = 0;
-for (const f of manifest.files) {
+const items = manifest.files.flatMap((e) => (e.files ?? [e.file]).map((file, i, all) => ({ file, workDir: i === all.length - 1 ? e.workDir : '' })));
+for (const f of items) {
   const src = path.join(ROOT, f.file);
   if (!fs.existsSync(src)) continue;
   let dest = path.join(DONE, path.basename(src));
@@ -32,7 +33,7 @@ for (const f of manifest.files) {
   if (tracked) spawnSync('git', ['rm', '--cached', '-q', '--', f.file], { cwd: ROOT });
   moved++;
   console.log(`✔ ${f.file} → ${path.relative(ROOT, dest)}${tracked ? ' (đã gỡ khỏi git)' : ''}`);
-  if (!keepWork) fs.rmSync(path.join(ROOT, f.workDir), { recursive: true, force: true });
+  if (!keepWork && f.workDir) fs.rmSync(path.join(ROOT, f.workDir), { recursive: true, force: true });
 }
 
 const logPath = path.join(WORK, 'merge-log.json');
