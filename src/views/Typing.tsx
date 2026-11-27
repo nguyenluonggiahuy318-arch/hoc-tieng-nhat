@@ -53,10 +53,20 @@ export function TypingView({ active }: { active: boolean }) {
   const poolKey = mode + sc + lessonNo.value + pool.map((p) => p.a).join('|');
   const deck = useMemo(() => new Deck(pool), [poolKey]);
 
-  const [cur, setCur] = useState<TypingItem | null>(null);
-  const [done, setDone] = useState(false);
-  const [verdict, setVerdict] = useState<{ ok: boolean; msg: string } | null>(null);
-  const [hint, setHint] = useState<string | null>(null);
+  // Câu hỏi gắn với bộ câu (deck): đổi bài / chế độ là có câu mới ngay trong lần vẽ đó,
+  // không bao giờ hiện lại câu của bài cũ.
+  interface QState {
+    deck: Deck<TypingItem>;
+    cur: TypingItem | null;
+    done: boolean;
+    verdict: { ok: boolean; msg: string } | null;
+    hint: string | null;
+  }
+  const firstQ = useMemo<QState>(() => ({ deck, cur: deck.size ? deck.next() : null, done: false, verdict: null, hint: null }), [deck]);
+  const [qState, setQState] = useState<QState | null>(null);
+  const q = qState && qState.deck === deck ? qState : firstQ;
+  const { cur, done, verdict, hint } = q;
+  const patch = (p: Partial<QState>) => setQState({ ...q, ...p });
   const [tally, setTally] = useState({ q: 0, c: 0 });
   const [miss, setMiss] = useState<string[]>([]);
   const [freeVal, setFreeVal] = useState('');
@@ -66,15 +76,13 @@ export function TypingView({ active }: { active: boolean }) {
 
   /** fromTap = true khi gọi trong sự kiện bấm/phím: focus ngay để bàn phím điện thoại không bị đóng. */
   const next = (fromTap = true) => {
-    setCur(deck.size ? deck.next() : null);
-    setDone(false);
-    setVerdict(null);
-    setHint(null);
+    if (fromTap) setQState({ deck, cur: deck.size ? deck.next() : null, done: false, verdict: null, hint: null });
     if (inp.current) inp.current.value = '';
     if (useKb) return;
     if (fromTap) inp.current?.focus();
     else if (finePointer()) setTimeout(() => active && inp.current?.focus(), 30);
   };
+  // bộ câu mới (đổi bài / chế độ): xoá ô nhập, focus nếu là máy tính
   useEffect(() => next(false), [deck]);
 
   const conv = () => {
@@ -106,8 +114,7 @@ export function TypingView({ active }: { active: boolean }) {
         msg = 'Đúng âm nhưng sai bảng chữ — ' + (useConv ? 'phần Katakana phải gõ <b>CHỮ HOA</b> (hoặc bật ア).' : 'kiểm tra chỗ nào phải viết Hiragana, chỗ nào Katakana.');
       else if (g.reason === 'particle') msg = 'Gần đúng! Trợ từ <b>は</b> phải gõ <code>ha</code> (đọc là wa), <b>を</b> gõ <code>wo</code>, <b>へ</b> gõ <code>he</code>.';
     }
-    setDone(true);
-    setVerdict({ ok: g.ok, msg });
+    patch({ done: true, verdict: { ok: g.ok, msg } });
     setTally((t) => ({ q: t.q + 1, c: t.c + (g.ok ? 1 : 0) }));
     if (!g.ok) setMiss((m) => (m.includes(cur.a) ? m : [...m, cur.a]));
     speak(normalizeAnswer(cur.a));
@@ -116,6 +123,7 @@ export function TypingView({ active }: { active: boolean }) {
   const showHint = () => {
     if (!cur) return;
     const a = normalizeAnswer(cur.a);
+    const setHint = (h: string) => patch({ hint: h });
     if (mode === 'letter') return setHint(`Bắt đầu bằng hàng chữ của <b>${cur.q}</b>`);
     if (useConv) return setHint(`Gõ: <code>${typingHint(a)}</code>` + (hasKatakana(a) ? ' · phần CHỮ HOA là Katakana' : ''));
     const k = hasKatakana(a), h = hasHiragana(a);

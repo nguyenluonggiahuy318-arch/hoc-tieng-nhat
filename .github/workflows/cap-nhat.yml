@@ -1,0 +1,111 @@
+# TUỲ CHỌN — tự cập nhật bài khi tải file vào inbox/ trên GitHub (không cần mở máy tính).
+# Cần: Claude GitHub App đã cài cho repo và secret CLAUDE_CODE_OAUTH_TOKEN (hoặc ANTHROPIC_API_KEY).
+# Cách cài: xem README.md, mục "Cập nhật bài từ điện thoại".
+name: Cập nhật bài từ inbox (Claude)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'inbox/**'
+      - '!inbox/README.md'
+      - '!inbox/.gitkeep'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: cap-nhat
+  cancel-in-progress: false
+
+jobs:
+  kiem-tra-inbox:
+    runs-on: ubuntu-latest
+    outputs:
+      count: ${{ steps.count.outputs.count }}
+    steps:
+      - uses: actions/checkout@v7
+      - id: count
+        run: echo "count=$(find inbox -maxdepth 1 -type f ! -name README.md ! -name .gitkeep | wc -l)" >> "$GITHUB_OUTPUT"
+
+  cap-nhat:
+    needs: kiem-tra-inbox
+    if: needs.kiem-tra-inbox.outputs.count != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - name: Kiểm tra secret
+        env:
+          OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          APIKEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$OAUTH" ] && [ -z "$APIKEY" ]; then
+            echo "::error::Chưa có secret CLAUDE_CODE_OAUTH_TOKEN (hoặc ANTHROPIC_API_KEY). Xem README, mục 'Cập nhật bài từ điện thoại'."
+            exit 1
+          fi
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Cài ffmpeg, poppler và trình duyệt cho test
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg poppler-utils
+          npx playwright install --with-deps chromium webkit
+
+      - name: Claude đọc tài liệu và cập nhật bài
+        uses: anthropics/claude-code-action@v1
+        env:
+          CAP_NHAT_CI: '1'
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Đọc file .claude/commands/cap-nhat.md rồi làm đúng từng bước trong đó cho các file mới trong inbox/.
+            Đây là CHẾ ĐỘ CI (GitHub Actions, biến CAP_NHAT_CI=1): không hỏi lại người dùng; KHÔNG commit và
+            KHÔNG push (workflow sẽ tự commit, push và deploy sau khi bạn xong). Không chắc là bài mấy thì dừng lại
+            và ghi lý do. Cuối cùng ghi báo cáo tiếng Việt vào inbox/.work/bao-cao.md.
+          claude_args: |
+            --max-turns 250
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(npm run inbox:scan:*),Bash(npm run merge:*),Bash(npm run validate:*),Bash(npm run stats:*),Bash(npm test:*),Bash(npm run test:unit:*),Bash(npm run test:e2e:*),Bash(npx playwright test:*),Bash(npm run inbox:done:*),Bash(git status:*),Bash(git diff:*),Bash(ls:*),Bash(echo:*),Bash(pdftotext:*),Bash(pdfinfo:*),Bash(ffprobe:*)"
+
+      - name: Commit, push
+        id: commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # dùng GITHUB_TOKEN của workflow để push (không tự kích hoạt lại workflow)
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git add -A content
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi nội dung."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          msg="$(cat inbox/.work/commit-message.txt 2>/dev/null || echo 'Cập nhật bài từ inbox')"
+          git commit -m "$msg" -m "Tự động bởi workflow cap-nhat (Claude Code). Tài liệu gốc đã được gỡ khỏi repo."
+          for i in 1 2 3 4; do git push origin HEAD:main && break; sleep $((i * 5)); git pull --rebase origin main; done
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Báo cáo
+        if: always()
+        run: |
+          if [ -f inbox/.work/bao-cao.md ]; then cat inbox/.work/bao-cao.md >> "$GITHUB_STEP_SUMMARY"; fi
+
+  deploy:
+    needs: cap-nhat
+    if: needs.cap-nhat.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml

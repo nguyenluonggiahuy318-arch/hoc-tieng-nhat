@@ -64,12 +64,15 @@ test('chấm thông minh: Kanji, sai bảng chữ, わ thay cho trợ từ は',
   await pickLesson(page, 'go-chu', 1);
   const input = s.getByTestId('typing-input');
   const L1 = lessons()[0];
+  const viL1 = new Set(L1.order.map((o) => o.vi));
+  await expect.poll(async () => viL1.has(((await s.getByTestId('typing-stage').locator('.sub').first().textContent()) ?? '').trim())).toBe(true);
   let sawParticle = false;
   let sawScript = false;
   for (let i = 0; i < typingSentences(L1).length && !(sawParticle && sawScript); i++) {
     await s.getByTestId('typing-hint').click();
     const answer = normalizeAnswer(romaToKana((await s.getByTestId('hint-text').locator('code').textContent())!, true));
-    const item = L1.order.find((o) => o.words.join('') === answer)!;
+    const item = L1.order.find((o) => normalizeAnswer(o.words.join('')) === answer)!;
+    expect(item, 'không tìm thấy câu: ' + answer).toBeTruthy();
     if (!sawParticle && item.words.includes('は')) {
       await input.fill(item.words.map((w) => (w === 'は' ? 'わ' : w)).join(''));
       await input.press('Enter');

@@ -27,7 +27,8 @@ export interface TypingItem {
   a: string;
 }
 
-const typable = (s: string) => !hasLatin(s) && !hasKanji(s) && normalizeAnswer(s).length > 0;
+/** Gõ được bằng kana: không có chữ Latin, Kanji, hay phần ghi chú trong ngoặc như "～ふん（～ぷん）". */
+const typable = (s: string) => !hasLatin(s) && !hasKanji(s) && !/[（()）]/.test(s) && normalizeAnswer(s).length > 0;
 
 /** Từ vựng dùng để luyện gõ (bỏ từ có chữ Latin/Kanji và cụm quá dài). */
 export function typingWords(L: Lesson): TypingItem[] {
