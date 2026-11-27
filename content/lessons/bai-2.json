@@ -1,0 +1,1283 @@
+{
+  "lesson": 2,
+  "title": "だい２か",
+  "sources": [
+    "Tài liệu từ vựng だい２か",
+    "Video bài giảng NP Bài 2"
+  ],
+  "notes": {
+    "vocab": "Mẹo: tên nước + <b>ご</b> = tiếng nước đó (ベトナム → ベトナムご), giống tên nước + じん = người nước đó ở Bài 1.",
+    "vocabSource": "Từ vựng và cột phiên âm lấy theo tài liệu だい２か (Bài 2) bạn gửi; cột romaji là cách viết chuẩn (Hepburn).",
+    "grammarSource": "Ngữ pháp và ví dụ theo video bài giảng NP Bài 2 của bạn; gồm cả phần 2 của video (sở hữu ひとの N, だれの, あなたの)."
+  },
+  "vocab": [
+    {
+      "group": "Đồ dùng học tập",
+      "items": [
+        {
+          "jp": "ほん",
+          "romaji": "hon",
+          "phienam": "Hon",
+          "vi": "Sách"
+        },
+        {
+          "jp": "ノート",
+          "romaji": "nōto",
+          "phienam": "Nôôtô",
+          "vi": "Vở"
+        },
+        {
+          "jp": "ざっし",
+          "romaji": "zasshi",
+          "phienam": "Zasshi",
+          "vi": "Tạp chí"
+        },
+        {
+          "jp": "じしょ",
+          "romaji": "jisho",
+          "phienam": "Jishô",
+          "vi": "Từ điển"
+        },
+        {
+          "jp": "しんぶん",
+          "romaji": "shinbun",
+          "phienam": "Shimbưn",
+          "vi": "Báo"
+        },
+        {
+          "jp": "えんぴつ",
+          "romaji": "enpitsu",
+          "phienam": "Empitsư",
+          "vi": "Bút chì gỗ"
+        },
+        {
+          "jp": "ボールペン",
+          "romaji": "bōrupen",
+          "phienam": "Bôôrưpen",
+          "vi": "Bút bi"
+        },
+        {
+          "jp": "けしゴム",
+          "romaji": "keshigomu",
+          "phienam": "Kêshigômư",
+          "vi": "Cục tẩy"
+        },
+        {
+          "jp": "シャープペンシル",
+          "romaji": "shāpupenshiru",
+          "phienam": "Shaapưpenshirư",
+          "vi": "Bút chì bấm"
+        },
+        {
+          "jp": "てちょう",
+          "romaji": "techō",
+          "phienam": "Têchôô",
+          "vi": "Sổ tay"
+        }
+      ]
+    },
+    {
+      "group": "Đồ vật",
+      "items": [
+        {
+          "jp": "とけい",
+          "romaji": "tokei",
+          "phienam": "Tôkêê",
+          "vi": "Đồng hồ"
+        },
+        {
+          "jp": "つくえ",
+          "romaji": "tsukue",
+          "phienam": "Tsưkưê",
+          "vi": "Bàn"
+        },
+        {
+          "jp": "いす",
+          "romaji": "isu",
+          "phienam": "Isư",
+          "vi": "Ghế"
+        },
+        {
+          "jp": "かさ",
+          "romaji": "kasa",
+          "phienam": "Kasa",
+          "vi": "Dù / ô"
+        },
+        {
+          "jp": "かばん",
+          "romaji": "kaban",
+          "phienam": "Kaban",
+          "vi": "Cặp, túi xách"
+        },
+        {
+          "jp": "カード",
+          "romaji": "kādo",
+          "phienam": "Kaađô",
+          "vi": "Thẻ"
+        },
+        {
+          "jp": "めいし",
+          "romaji": "meishi",
+          "phienam": "Mêêshi",
+          "vi": "Danh thiếp"
+        },
+        {
+          "jp": "ＣＤ",
+          "romaji": "shīdī",
+          "phienam": "Shiiđii",
+          "vi": "Đĩa CD"
+        },
+        {
+          "jp": "テレビ",
+          "romaji": "terebi",
+          "phienam": "Têrêbi",
+          "vi": "Ti vi"
+        },
+        {
+          "jp": "ラジオ",
+          "romaji": "rajio",
+          "phienam": "Rajiô",
+          "vi": "Radio"
+        },
+        {
+          "jp": "カメラ",
+          "romaji": "kamera",
+          "phienam": "Kamêra",
+          "vi": "Máy ảnh"
+        },
+        {
+          "jp": "くるま",
+          "romaji": "kuruma",
+          "phienam": "Kưrưma",
+          "vi": "Xe hơi"
+        },
+        {
+          "jp": "バイク",
+          "romaji": "baiku",
+          "phienam": "Baikư",
+          "vi": "Xe máy"
+        },
+        {
+          "jp": "コンピューター",
+          "romaji": "konpyūtā",
+          "phienam": "Kompyưưtaa",
+          "vi": "Máy tính"
+        },
+        {
+          "jp": "かぎ",
+          "romaji": "kagi",
+          "phienam": "Kagi",
+          "vi": "Chìa khóa"
+        },
+        {
+          "jp": "チョコレート",
+          "romaji": "chokorēto",
+          "phienam": "Chôkôrêêtô",
+          "vi": "Sô-cô-la"
+        },
+        {
+          "jp": "コーヒー",
+          "romaji": "kōhī",
+          "phienam": "Kôôhii",
+          "vi": "Cà phê"
+        },
+        {
+          "jp": "はな",
+          "romaji": "hana",
+          "phienam": "Hana",
+          "vi": "Hoa"
+        }
+      ]
+    },
+    {
+      "group": "Nơi chốn",
+      "items": [
+        {
+          "jp": "がっこう",
+          "romaji": "gakkō",
+          "phienam": "Gakkô",
+          "vi": "Trường học"
+        },
+        {
+          "jp": "かいしゃ",
+          "romaji": "kaisha",
+          "phienam": "Kaisha",
+          "vi": "Công ty"
+        },
+        {
+          "jp": "ぎんこう",
+          "romaji": "ginkō",
+          "phienam": "Gingkôô",
+          "vi": "Ngân hàng"
+        },
+        {
+          "jp": "びょういん",
+          "romaji": "byōin",
+          "phienam": "Byôôin",
+          "vi": "Bệnh viện"
+        },
+        {
+          "jp": "だいがく",
+          "romaji": "daigaku",
+          "phienam": "Đaigakư",
+          "vi": "Đại học"
+        }
+      ]
+    },
+    {
+      "group": "Ngôn ngữ (tên nước + ご)",
+      "items": [
+        {
+          "jp": "にほんご",
+          "romaji": "nihongo",
+          "phienam": "Nihongô",
+          "vi": "Tiếng Nhật"
+        },
+        {
+          "jp": "ちゅうごくご",
+          "romaji": "chūgokugo",
+          "phienam": "Chyưưgôkưgô",
+          "vi": "Tiếng Trung"
+        },
+        {
+          "jp": "かんこくご",
+          "romaji": "kankokugo",
+          "phienam": "Kankôkưgô",
+          "vi": "Tiếng Hàn"
+        },
+        {
+          "jp": "タイご",
+          "romaji": "taigo",
+          "phienam": "Taigô",
+          "vi": "Tiếng Thái"
+        },
+        {
+          "jp": "ベトナムご",
+          "romaji": "betonamugo",
+          "phienam": "Bêtônamưgô",
+          "vi": "Tiếng Việt"
+        },
+        {
+          "jp": "インドネシアご",
+          "romaji": "indoneshiago",
+          "phienam": "Inđônêshiagô",
+          "vi": "Tiếng Indonesia"
+        },
+        {
+          "jp": "フランスご",
+          "romaji": "furansugo",
+          "phienam": "Fưransưgô",
+          "vi": "Tiếng Pháp"
+        },
+        {
+          "jp": "ドイツご",
+          "romaji": "doitsugo",
+          "phienam": "Đôitsưgô",
+          "vi": "Tiếng Đức"
+        },
+        {
+          "jp": "イタリアご",
+          "romaji": "itariago",
+          "phienam": "Itariagô",
+          "vi": "Tiếng Ý"
+        },
+        {
+          "jp": "スペインご",
+          "romaji": "supeingo",
+          "phienam": "Sưpêingô",
+          "vi": "Tiếng Tây Ban Nha"
+        },
+        {
+          "jp": "えいご",
+          "romaji": "eigo",
+          "phienam": "Êêgô",
+          "vi": "Tiếng Anh"
+        },
+        {
+          "jp": "がいこくご",
+          "romaji": "gaikokugo",
+          "phienam": "Gaikôkưgô",
+          "vi": "Tiếng nước ngoài"
+        }
+      ]
+    },
+    {
+      "group": "Mẫu câu giao tiếp",
+      "items": [
+        {
+          "jp": "これから おせわに なります",
+          "romaji": "korekara osewa ni narimasu",
+          "phienam": "Kôrê kara ôsêwaninarimasư",
+          "vi": "Từ nay rất mong bạn giúp đỡ"
+        },
+        {
+          "jp": "こちらこそ よろしく",
+          "romaji": "kochira koso yoroshiku",
+          "phienam": "Kôchirakôsô yôrôshikư",
+          "vi": "Chính tôi mới phải nhờ anh giúp đỡ"
+        },
+        {
+          "jp": "あのう、これ コーヒーです。どうぞ。",
+          "romaji": "anō, kore kōhī desu. dōzo.",
+          "phienam": "Anôô, kôrê kôôhii đêsư. Đôôzô",
+          "vi": "À, đây là cà phê, xin mời"
+        },
+        {
+          "jp": "どうも ありがとう ございます",
+          "romaji": "dōmo arigatō gozaimasu",
+          "phienam": "Đôômô arigatôô gôzaimasư",
+          "vi": "Xin cảm ơn"
+        },
+        {
+          "jp": "どういたしまして",
+          "romaji": "dō itashimashite",
+          "phienam": "Đôôitashimashitê",
+          "vi": "Không có gì"
+        },
+        {
+          "jp": "すみません",
+          "romaji": "sumimasen",
+          "phienam": "Sưmimasen",
+          "vi": "Xin lỗi"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "これ / それ / あれ は N です",
+      "meaning": "Cái này / cái đó / cái kia là N",
+      "explain": "<b>これ</b>: vật ở gần người nói. <b>それ</b>: vật ở gần người nghe. <b>あれ</b>: vật ở xa cả hai người. Ba từ này đứng một mình như danh từ, <u>không</u> có danh từ theo sau.",
+      "note": "Mẹo nhớ: こ = gần tôi, そ = gần bạn, あ = xa cả hai.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "これは とけいです。",
+          "romaji": "Kore wa tokei desu.",
+          "vi": "Cái này là đồng hồ. (đồng hồ trong tay người nói)"
+        },
+        {
+          "jp": "それは ほんです。",
+          "romaji": "Sore wa hon desu.",
+          "vi": "Cái đó là sách. (sách trong tay người nghe)"
+        },
+        {
+          "jp": "あれは いすです。",
+          "romaji": "Are wa isu desu.",
+          "vi": "Cái kia là cái ghế. (ghế ở xa cả hai)"
+        }
+      ]
+    },
+    {
+      "pattern": "この / その / あの ＋ N",
+      "meaning": "N này / N đó / N kia",
+      "explain": "<b>この, その, あの</b> đứng <b>trước danh từ</b> để chỉ rõ vật nào, người nào. Khoảng cách giống これ / それ / あれ: こ = gần người nói, そ = gần người nghe, あ = xa cả hai.<table class=\"ktable\"><tr><th></th><th>Gần người nói</th><th>Gần người nghe</th><th>Xa cả hai</th></tr><tr><td>Đứng một mình</td><td>これ</td><td>それ</td><td>あれ</td></tr><tr><td>＋ danh từ</td><td>この N</td><td>その N</td><td>あの N</td></tr></table>",
+      "note": "Hay nhầm nhất: ✗ これ ほん / ✗ この は ほんです. Nhớ: <b>これ</b> đứng một mình (これは ほんです), <b>この</b> luôn kèm danh từ (この ほんは…). Giống これ/それ, hỏi bằng その N thì trả lời bằng この N.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "この ほんは わたしのです。",
+          "romaji": "Kono hon wa watashi no desu.",
+          "vi": "Quyển sách này là của tôi."
+        },
+        {
+          "jp": "その かさは だれのですか。",
+          "romaji": "Sono kasa wa dare no desu ka.",
+          "vi": "Cái ô đó là của ai?"
+        },
+        {
+          "jp": "……この かさは さとうさんのです。",
+          "romaji": "Kono kasa wa Satō-san no desu.",
+          "vi": "Cái ô này là của chị Sato."
+        },
+        {
+          "jp": "あの ひとは だれですか。",
+          "romaji": "Ano hito wa dare desu ka.",
+          "vi": "Người kia là ai?"
+        },
+        {
+          "jp": "……あの ひとは やまださんです。",
+          "romaji": "Ano hito wa Yamada-san desu.",
+          "vi": "Người kia là anh Yamada."
+        },
+        {
+          "jp": "この とけいは にほんの とけいです。",
+          "romaji": "Kono tokei wa Nihon no tokei desu.",
+          "vi": "Cái đồng hồ này là đồng hồ Nhật."
+        }
+      ]
+    },
+    {
+      "pattern": "そうです / そうじゃ ありません",
+      "meaning": "Đúng vậy / Không phải vậy",
+      "explain": "Câu hỏi xác nhận <b>N ですか</b> (có phải là N không?). Trả lời ngắn bằng <b>はい、そうです</b> hoặc <b>いいえ、そうじゃ ありません</b>, rồi có thể nói thêm đáp án đúng.",
+      "note": "そうですか (giọng đi xuống) nghĩa là \"Thế à\", dùng khi vừa nghe được thông tin mới.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "これは ノートですか。",
+          "romaji": "Kore wa nōto desu ka.",
+          "vi": "Cái này là vở phải không?"
+        },
+        {
+          "jp": "……はい、そうです。ノートです。",
+          "romaji": "Hai, sō desu. Nōto desu.",
+          "vi": "Vâng, đúng vậy. Là vở."
+        },
+        {
+          "jp": "それは ボールペンですか。",
+          "romaji": "Sore wa bōrupen desu ka.",
+          "vi": "Cái đó là bút bi phải không?"
+        },
+        {
+          "jp": "……いいえ、そうじゃ ありません。えんぴつです。",
+          "romaji": "Iie, sō ja arimasen. Enpitsu desu.",
+          "vi": "Không, không phải. Là bút chì."
+        }
+      ]
+    },
+    {
+      "pattern": "これ / それ / あれ は なんですか",
+      "meaning": "Cái này / đó / kia là cái gì?",
+      "explain": "<b>なん</b> = cái gì, đặt vào chỗ danh từ cần hỏi. Chú ý khi trả lời: hỏi bằng <b>これ</b> thì đáp bằng <b>それ</b> (vì vật đang ở gần người hỏi), hỏi bằng <b>それ</b> thì đáp bằng <b>これ</b>. Hỏi bằng <b>あれ</b> thì vẫn đáp <b>あれ</b>.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "これは なんですか。",
+          "romaji": "Kore wa nan desu ka.",
+          "vi": "Cái này là cái gì?"
+        },
+        {
+          "jp": "……それは しんぶんです。",
+          "romaji": "Sore wa shinbun desu.",
+          "vi": "Cái đó là báo."
+        },
+        {
+          "jp": "あれは なんですか。",
+          "romaji": "Are wa nan desu ka.",
+          "vi": "Cái kia là cái gì?"
+        },
+        {
+          "jp": "……あれは つくえです。",
+          "romaji": "Are wa tsukue desu.",
+          "vi": "Cái kia là cái bàn."
+        }
+      ]
+    },
+    {
+      "pattern": "A ですか、B ですか",
+      "meaning": "A hay là B?",
+      "explain": "Câu hỏi <b>lựa chọn</b> giữa A và B. Trả lời bằng chính đáp án, <u>không</u> dùng はい / いいえ.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "これは「シ」ですか、「ツ」ですか。",
+          "romaji": "Kore wa \"shi\" desu ka, \"tsu\" desu ka.",
+          "vi": "Cái này là chữ シ hay chữ ツ?"
+        },
+        {
+          "jp": "……「シ」です。",
+          "romaji": "\"Shi\" desu.",
+          "vi": "Là chữ シ."
+        },
+        {
+          "jp": "それは ボールペンですか、シャープペンシルですか。",
+          "romaji": "Sore wa bōrupen desu ka, shāpupenshiru desu ka.",
+          "vi": "Cái đó là bút bi hay bút chì bấm?"
+        },
+        {
+          "jp": "……ボールペンです。",
+          "romaji": "Bōrupen desu.",
+          "vi": "Là bút bi."
+        }
+      ]
+    },
+    {
+      "pattern": "これ / それ / あれ は N1 の N2 です",
+      "meaning": "Cái này / đó / kia là N2 về N1",
+      "explain": "<b>の</b> nối hai danh từ: N1 nói lên <b>nội dung, chủ đề</b> của N2. Thứ tự ngược tiếng Việt: \"sách <i>về máy tính</i>\" → コンピューターの ほん.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "これは コンピューターの ほんです。",
+          "romaji": "Kore wa konpyūtā no hon desu.",
+          "vi": "Cái này là sách về máy tính."
+        },
+        {
+          "jp": "それは くるまの ざっしです。",
+          "romaji": "Sore wa kuruma no zasshi desu.",
+          "vi": "Cái đó là tạp chí về xe ô tô."
+        },
+        {
+          "jp": "あれは えいごの CDです。",
+          "romaji": "Are wa eigo no shīdī desu.",
+          "vi": "Cái kia là đĩa CD tiếng Anh."
+        }
+      ]
+    },
+    {
+      "pattern": "なんの N ですか",
+      "meaning": "N về cái gì?",
+      "explain": "Hỏi nội dung của một vật: thay N1 bằng <b>なんの</b>.",
+      "note": "なんですか hỏi \"là cái gì\"; なんの N ですか hỏi \"N về cái gì\" — đã biết là sách, chỉ hỏi sách về gì.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "これは なんの ほんですか。",
+          "romaji": "Kore wa nan no hon desu ka.",
+          "vi": "Cái này là sách về cái gì vậy?"
+        },
+        {
+          "jp": "……それは にほんごの ほんです。",
+          "romaji": "Sore wa nihongo no hon desu.",
+          "vi": "Cái đó là sách về tiếng Nhật."
+        },
+        {
+          "jp": "それは なんの カードですか。",
+          "romaji": "Sore wa nan no kādo desu ka.",
+          "vi": "Cái đó là thẻ gì vậy?"
+        },
+        {
+          "jp": "……これは めいしです。",
+          "romaji": "Kore wa meishi desu.",
+          "vi": "Cái này là danh thiếp."
+        }
+      ]
+    },
+    {
+      "pattern": "～は N の かいしゃ / がっこう です",
+      "meaning": "… là công ty / trường về N",
+      "explain": "Cùng cách dùng の như trên để nói một công ty làm về gì, một trường dạy về gì. Hỏi bằng <b>なんの かいしゃですか</b>.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "ホンダは バイクの かいしゃです。",
+          "romaji": "Honda wa baiku no kaisha desu.",
+          "vi": "Honda là công ty về xe máy."
+        },
+        {
+          "jp": "さかえセンターは にほんごの がっこうです。",
+          "romaji": "Sakae Sentā wa nihongo no gakkō desu.",
+          "vi": "Trung tâm Sakae là trường học về tiếng Nhật."
+        },
+        {
+          "jp": "トヨタは なんの かいしゃですか。",
+          "romaji": "Toyota wa nan no kaisha desu ka.",
+          "vi": "Toyota là công ty về cái gì vậy?"
+        },
+        {
+          "jp": "……くるまの かいしゃです。",
+          "romaji": "Kuruma no kaisha desu.",
+          "vi": "Là công ty về xe ô tô."
+        }
+      ]
+    },
+    {
+      "pattern": "これ / それ / あれ は ひと の N です",
+      "meaning": "Cái này / đó / kia là N của (người)",
+      "explain": "<b>の</b> chỉ <b>sở hữu</b>: N thuộc về người đứng trước の. Hỏi chủ sở hữu bằng <b>だれの N ですか</b> (N của ai?).",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "これは わたしの ノートです。",
+          "romaji": "Kore wa watashi no nōto desu.",
+          "vi": "Cái này là vở của tôi."
+        },
+        {
+          "jp": "それは やまださんの かぎです。",
+          "romaji": "Sore wa Yamada-san no kagi desu.",
+          "vi": "Cái đó là chìa khóa của anh Yamada."
+        },
+        {
+          "jp": "あれは サントスさんの かばんです。",
+          "romaji": "Are wa Santosu-san no kaban desu.",
+          "vi": "Cái kia là cặp của anh Santos."
+        },
+        {
+          "jp": "これは だれの カメラですか。",
+          "romaji": "Kore wa dare no kamera desu ka.",
+          "vi": "Cái này là máy ảnh của ai vậy?"
+        },
+        {
+          "jp": "……それは ミラーさんの カメラです。",
+          "romaji": "Sore wa Mirā-san no kamera desu.",
+          "vi": "Cái đó là máy ảnh của anh Miller."
+        },
+        {
+          "jp": "あれは だれの バイクですか。",
+          "romaji": "Are wa dare no baiku desu ka.",
+          "vi": "Cái kia là xe máy của ai vậy?"
+        },
+        {
+          "jp": "……あれは せんせいの バイクです。",
+          "romaji": "Are wa sensei no baiku desu.",
+          "vi": "Cái kia là xe máy của thầy."
+        }
+      ]
+    },
+    {
+      "pattern": "ひと は ～ の N です",
+      "meaning": "(Người) là N của ~",
+      "explain": "Nói một người là <b>nhân viên của công ty nào</b>, <b>sinh viên của trường nào</b>. Thứ tự ngược tiếng Việt: \"nhân viên <i>công ty IMC</i>\" → IMCの しゃいん.",
+      "note": "しゃいん = nhân viên (của một công ty cụ thể) · エンジニア = kỹ sư. Ở đây <b>không bỏ</b> N sau の: ✗ ミラーさんは IMCのです.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "ミラーさんは IMCの しゃいんです。",
+          "romaji": "Mirā-san wa IMC no shain desu.",
+          "vi": "Anh Miller là nhân viên của công ty IMC."
+        },
+        {
+          "jp": "シュミットさんは パワーでんきの エンジニアです。",
+          "romaji": "Shumitto-san wa Pawā Denki no enjinia desu.",
+          "vi": "Anh Schmidt là kỹ sư của công ty điện Power."
+        },
+        {
+          "jp": "カリナさんは さくらだいがくの がくせいです。",
+          "romaji": "Karina-san wa Sakura daigaku no gakusei desu.",
+          "vi": "Chị Karina là sinh viên trường đại học Sakura."
+        }
+      ]
+    },
+    {
+      "pattern": "この / その / あの N は ひと の です",
+      "meaning": "N này / đó / kia là của (người)",
+      "explain": "Đưa vật lên làm chủ đề bằng <b>この / その / あの N</b>, rồi nói chủ sở hữu bằng <b>ひと の です</b>. Danh từ sau の được <b>bỏ đi</b> vì đã nói ở đầu câu. Hỏi bằng <b>だれのですか</b> (của ai?).",
+      "note": "So sánh: これは わたしの えんぴつです (Cái này là bút chì của tôi) = この えんぴつは わたしのです (Cây bút chì này là của tôi).",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "この えんぴつは わたしのです。",
+          "romaji": "Kono enpitsu wa watashi no desu.",
+          "vi": "Cây bút chì này là của tôi."
+        },
+        {
+          "jp": "その とけいは やまださんのです。",
+          "romaji": "Sono tokei wa Yamada-san no desu.",
+          "vi": "Cái đồng hồ đó là của anh Yamada."
+        },
+        {
+          "jp": "あの かばんは シュミットさんのです。",
+          "romaji": "Ano kaban wa Shumitto-san no desu.",
+          "vi": "Cái cặp kia là của anh Schmidt."
+        },
+        {
+          "jp": "この てちょうは だれのですか。",
+          "romaji": "Kono techō wa dare no desu ka.",
+          "vi": "Cuốn sổ tay này là của ai?"
+        },
+        {
+          "jp": "……ミラーさんのです。",
+          "romaji": "Mirā-san no desu.",
+          "vi": "Của anh Miller."
+        },
+        {
+          "jp": "その じしょは だれのですか。",
+          "romaji": "Sono jisho wa dare no desu ka.",
+          "vi": "Cuốn từ điển đó là của ai?"
+        },
+        {
+          "jp": "……せんせいのです。",
+          "romaji": "Sensei no desu.",
+          "vi": "Của thầy."
+        }
+      ]
+    },
+    {
+      "pattern": "あなたの ですか → わたしの です / じゃ ありません",
+      "meaning": "Của bạn phải không? → Của tôi / Không phải của tôi",
+      "explain": "Hỏi có phải đồ của người nghe không bằng <b>あなたのですか</b>. Trả lời <b>はい、わたしのです</b> hoặc <b>いいえ、わたしのじゃ ありません</b>, có thể nói thêm của ai.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "この けしゴムは あなたのですか。",
+          "romaji": "Kono keshigomu wa anata no desu ka.",
+          "vi": "Cục tẩy này là của bạn phải không?"
+        },
+        {
+          "jp": "……はい、わたしのです。",
+          "romaji": "Hai, watashi no desu.",
+          "vi": "Vâng, của tôi."
+        },
+        {
+          "jp": "あの くるまは あなたのですか。",
+          "romaji": "Ano kuruma wa anata no desu ka.",
+          "vi": "Chiếc xe kia là của bạn phải không?"
+        },
+        {
+          "jp": "……いいえ、わたしのじゃ ありません。やまださんのです。",
+          "romaji": "Iie, watashi no ja arimasen. Yamada-san no desu.",
+          "vi": "Không, không phải của tôi. Là của anh Yamada."
+        }
+      ]
+    }
+  ],
+  "fill": [
+    {
+      "q": "＿＿は ほんです。(quyển sách trong tay tôi)",
+      "options": [
+        "これ",
+        "この",
+        "あの",
+        "それ"
+      ],
+      "answer": "これ",
+      "vi": "Đây là quyển sách.",
+      "why": "Vật ở gần người nói, đứng một mình → これ."
+    },
+    {
+      "q": "＿＿ ほんは わたしのです。",
+      "options": [
+        "この",
+        "これ",
+        "それ",
+        "あれ"
+      ],
+      "answer": "この",
+      "vi": "Quyển sách này là của tôi.",
+      "why": "Có danh từ ほん theo sau → この."
+    },
+    {
+      "q": "A: ＿＿は なんですか。(chỉ vào cái ô bạn đang cầm) B: かさです。",
+      "options": [
+        "それ",
+        "これ",
+        "この",
+        "あの"
+      ],
+      "answer": "それ",
+      "vi": "Đó là cái gì? — Là cái ô.",
+      "why": "Vật ở gần người nghe → それ."
+    },
+    {
+      "q": "＿＿は びょういんです。(toà nhà ở đằng xa)",
+      "options": [
+        "あれ",
+        "あの",
+        "これ",
+        "その"
+      ],
+      "answer": "あれ",
+      "vi": "Kia là bệnh viện.",
+      "why": "Ở xa cả hai người, đứng một mình → あれ."
+    },
+    {
+      "q": "＿＿ ひとは だれですか。",
+      "options": [
+        "あの",
+        "あれ",
+        "これ",
+        "それ"
+      ],
+      "answer": "あの",
+      "vi": "Người kia là ai?",
+      "why": "Có danh từ ひと theo sau → あの."
+    },
+    {
+      "q": "A: ＿＿ かさは だれのですか。(cái ô bạn kia đang cầm) B: わたしのです。",
+      "options": [
+        "その",
+        "それ",
+        "この",
+        "あれ"
+      ],
+      "answer": "その",
+      "vi": "Cái ô đó là của ai? — Của tôi.",
+      "why": "Vật gần người nghe + có danh từ かさ → その."
+    },
+    {
+      "q": "A: その とけいは にほんのですか。 B: はい、＿＿ とけいは にほんのです。",
+      "options": [
+        "この",
+        "これ",
+        "その",
+        "あの"
+      ],
+      "answer": "この",
+      "vi": "Cái đồng hồ đó là của Nhật à? — Vâng, cái đồng hồ này là của Nhật.",
+      "why": "Hỏi bằng その thì trả lời bằng この."
+    },
+    {
+      "q": "それは ＿＿の かばんですか。 …わたしのです。",
+      "options": [
+        "だれ",
+        "なん",
+        "どなた",
+        "この"
+      ],
+      "answer": "だれ",
+      "vi": "Đó là cặp của ai? — Của tôi.",
+      "why": "Hỏi chủ sở hữu → だれの."
+    },
+    {
+      "q": "＿＿は なんの CDですか。 …にほんごの CDです。",
+      "options": [
+        "それ",
+        "その",
+        "この",
+        "あの"
+      ],
+      "answer": "それ",
+      "vi": "Đó là đĩa CD gì? — Đĩa CD tiếng Nhật.",
+      "why": "Sau chỗ trống là は → それ (đứng một mình)."
+    },
+    {
+      "q": "＿＿ かさは あなたのですか。",
+      "options": [
+        "この",
+        "これ",
+        "それ",
+        "あれ"
+      ],
+      "answer": "この",
+      "vi": "Cái ô này là của bạn à?",
+      "why": "Có danh từ かさ theo sau → この."
+    },
+    {
+      "q": "この かさは あなたのですか。 …いいえ、＿＿のじゃ ありません。",
+      "options": [
+        "わたし",
+        "あなた",
+        "だれ",
+        "なん"
+      ],
+      "answer": "わたし",
+      "vi": "Cái ô này là của bạn à? — Không, không phải của tôi.",
+      "why": "Được hỏi あなたの → trả lời bằng わたしの."
+    },
+    {
+      "q": "ミラーさんは IMC＿＿ しゃいんです。",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "から"
+      ],
+      "answer": "の",
+      "vi": "Anh Miller là nhân viên công ty IMC.",
+      "why": "Công ty + の + しゃいん."
+    },
+    {
+      "q": "サントスさんは ブラジルじんです。マリアさん＿＿ ブラジルじんですか。",
+      "options": [
+        "も",
+        "は",
+        "の",
+        "か"
+      ],
+      "answer": "も",
+      "vi": "Anh Santos là người Brazil. Chị Maria cũng là người Brazil à?",
+      "why": "Giống người trước → も."
+    },
+    {
+      "q": "この てちょうは ＿＿ですか。 …ミラーさんのです。",
+      "options": [
+        "だれの",
+        "だれ",
+        "なんの",
+        "あなた"
+      ],
+      "answer": "だれの",
+      "vi": "Cuốn sổ tay này là của ai? — Của anh Miller.",
+      "why": "Đã nói vật ở đầu câu → だれのですか (bỏ danh từ sau の)."
+    },
+    {
+      "q": "＿＿は わたしの かばんです。",
+      "options": [
+        "これ",
+        "この",
+        "その",
+        "あの"
+      ],
+      "answer": "これ",
+      "vi": "Cái này là cặp của tôi.",
+      "why": "Sau chỗ trống là は, không có danh từ → これ (đứng một mình)."
+    },
+    {
+      "q": "＿＿ くるまは やまださんのです。(chiếc xe ở xa)",
+      "options": [
+        "あの",
+        "あれ",
+        "この",
+        "それ"
+      ],
+      "answer": "あの",
+      "vi": "Chiếc xe kia là của anh Yamada.",
+      "why": "Ở xa + có danh từ くるま → あの."
+    },
+    {
+      "q": "A: これは なんですか。 B: ＿＿は しんぶんです。",
+      "options": [
+        "それ",
+        "これ",
+        "あれ",
+        "この"
+      ],
+      "answer": "それ",
+      "vi": "Cái này là gì? — Cái đó là báo.",
+      "why": "Hỏi bằng これ (gần người hỏi) thì trả lời bằng それ."
+    },
+    {
+      "q": "ホンダは バイク＿＿ かいしゃです。",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "か"
+      ],
+      "answer": "の",
+      "vi": "Honda là công ty về xe máy.",
+      "why": "Nの かいしゃ = công ty về N."
+    },
+    {
+      "q": "トヨタは ＿＿の かいしゃですか。 …くるまの かいしゃです。",
+      "options": [
+        "なん",
+        "だれ",
+        "なんさい",
+        "どなた"
+      ],
+      "answer": "なん",
+      "vi": "Toyota là công ty về gì? — Công ty về ô tô.",
+      "why": "Hỏi nội dung → なんの."
+    },
+    {
+      "q": "これは ＿＿ですか。 …めいしです。",
+      "options": [
+        "なん",
+        "だれ",
+        "どなた",
+        "なんさい"
+      ],
+      "answer": "なん",
+      "vi": "Đây là cái gì? — Là danh thiếp.",
+      "why": "Hỏi đồ vật → なん."
+    },
+    {
+      "q": "これは ＿＿の かさですか。 …さとうさんのです。",
+      "options": [
+        "だれ",
+        "なん",
+        "この",
+        "それ"
+      ],
+      "answer": "だれ",
+      "vi": "Đây là ô của ai? — Của chị Sato.",
+      "why": "Hỏi chủ sở hữu → だれの."
+    },
+    {
+      "q": "これは ＿＿の ざっしですか。 …くるまの ざっしです。",
+      "options": [
+        "なん",
+        "だれ",
+        "どこ",
+        "いつ"
+      ],
+      "answer": "なん",
+      "vi": "Đây là tạp chí về gì? — Tạp chí về xe hơi.",
+      "why": "Hỏi nội dung → なんの."
+    },
+    {
+      "q": "これは にほんご＿＿ ほんです。",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "か"
+      ],
+      "answer": "の",
+      "vi": "Đây là sách tiếng Nhật.",
+      "why": "の nối hai danh từ: sách về tiếng Nhật."
+    },
+    {
+      "q": "A: それは じしょですか。 B: はい、＿＿です。",
+      "options": [
+        "そう",
+        "これ",
+        "なん",
+        "あれ"
+      ],
+      "answer": "そう",
+      "vi": "Đó là từ điển à? — Vâng, đúng vậy.",
+      "why": "Trả lời ngắn \"đúng vậy\" → そうです."
+    },
+    {
+      "q": "A: それは ノートですか。 B: いいえ、そう＿＿。",
+      "options": [
+        "じゃ ありません",
+        "です",
+        "ですか",
+        "の"
+      ],
+      "answer": "じゃ ありません",
+      "vi": "Đó là vở à? — Không, không phải.",
+      "why": "Phủ định → そうじゃ ありません."
+    },
+    {
+      "q": "これは ボールペンですか、シャープペンシル＿＿。",
+      "options": [
+        "ですか",
+        "です",
+        "の",
+        "も"
+      ],
+      "answer": "ですか",
+      "vi": "Đây là bút bi hay bút chì bấm?",
+      "why": "Câu hỏi lựa chọn: N1 ですか、N2 ですか."
+    },
+    {
+      "q": "この かばんは わたし＿＿です。",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "か"
+      ],
+      "answer": "の",
+      "vi": "Cái cặp này là của tôi.",
+      "why": "わたしの (bỏ かばん vì đã rõ)."
+    },
+    {
+      "q": "A: これ、どうぞ。 B: どうも ＿＿ ございます。",
+      "options": [
+        "ありがとう",
+        "すみません",
+        "よろしく",
+        "こちらこそ"
+      ],
+      "answer": "ありがとう",
+      "vi": "Cái này, xin mời. — Xin cảm ơn.",
+      "why": "どうも ありがとう ございます = Xin cảm ơn."
+    },
+    {
+      "q": "A: これから おせわに なります。 B: ＿＿ よろしく。",
+      "options": [
+        "こちらこそ",
+        "どうぞ",
+        "どういたしまして",
+        "あのう"
+      ],
+      "answer": "こちらこそ",
+      "vi": "Từ nay mong được giúp đỡ. — Chính tôi mới phải nhờ anh.",
+      "why": "Đáp lại lời nhờ giúp đỡ → こちらこそ よろしく."
+    }
+  ],
+  "order": [
+    {
+      "vi": "Đây là quyển sách.",
+      "words": [
+        "これ",
+        "は",
+        "ほん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Quyển sách này là của tôi.",
+      "words": [
+        "この",
+        "ほん",
+        "は",
+        "わたし",
+        "の",
+        "です"
+      ]
+    },
+    {
+      "vi": "Đó là cái gì?",
+      "words": [
+        "それ",
+        "は",
+        "なん",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Kia là bệnh viện.",
+      "words": [
+        "あれ",
+        "は",
+        "びょういん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Đây là sách tiếng Nhật.",
+      "words": [
+        "これ",
+        "は",
+        "にほんご",
+        "の",
+        "ほん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Cái ô đó là của ai?",
+      "words": [
+        "その",
+        "かさ",
+        "は",
+        "だれ",
+        "の",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Đây là tạp chí về gì?",
+      "words": [
+        "これ",
+        "は",
+        "なん",
+        "の",
+        "ざっし",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Đây là cặp của tôi.",
+      "words": [
+        "これ",
+        "は",
+        "わたし",
+        "の",
+        "かばん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Đó là bút bi hay bút chì bấm?",
+      "words": [
+        "それ",
+        "は",
+        "ボールペン",
+        "です",
+        "か、",
+        "シャープペンシル",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Không, không phải vậy.",
+      "words": [
+        "いいえ、",
+        "そう",
+        "じゃ ありません"
+      ]
+    },
+    {
+      "vi": "Chiếc xe hơi kia là của anh Yamada.",
+      "words": [
+        "あの",
+        "くるま",
+        "は",
+        "やまださん",
+        "の",
+        "です"
+      ]
+    },
+    {
+      "vi": "Cái đồng hồ này là đồng hồ Nhật.",
+      "words": [
+        "この",
+        "とけい",
+        "は",
+        "にほん",
+        "の",
+        "とけい",
+        "です"
+      ]
+    },
+    {
+      "vi": "Người kia là anh Yamada.",
+      "words": [
+        "あの",
+        "ひと",
+        "は",
+        "やまださん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Cây bút chì này là của tôi.",
+      "words": [
+        "この",
+        "えんぴつ",
+        "は",
+        "わたし",
+        "の",
+        "です"
+      ]
+    },
+    {
+      "vi": "Cái này là máy ảnh của ai vậy?",
+      "words": [
+        "これ",
+        "は",
+        "だれ",
+        "の",
+        "カメラ",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Anh Miller là nhân viên công ty IMC.",
+      "words": [
+        "ミラーさん",
+        "は",
+        "IMC",
+        "の",
+        "しゃいん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Không, không phải của tôi.",
+      "words": [
+        "いいえ、",
+        "わたし",
+        "の",
+        "じゃ ありません"
+      ]
+    },
+    {
+      "vi": "Honda là công ty về xe máy.",
+      "words": [
+        "ホンダ",
+        "は",
+        "バイク",
+        "の",
+        "かいしゃ",
+        "です"
+      ]
+    },
+    {
+      "vi": "Trung tâm Sakae là trường học về tiếng Nhật.",
+      "words": [
+        "さかえセンター",
+        "は",
+        "にほんご",
+        "の",
+        "がっこう",
+        "です"
+      ]
+    },
+    {
+      "vi": "Cái kia là đĩa CD tiếng Anh.",
+      "words": [
+        "あれ",
+        "は",
+        "えいご",
+        "の",
+        "CD",
+        "です"
+      ]
+    }
+  ],
+  "corrections": []
+}

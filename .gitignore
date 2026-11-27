@@ -1,3 +1,21 @@
+node_modules/
+dist/
+dev-dist/
+test-results/
+playwright-report/
+blob-report/
+*.log
+.DS_Store
+Thumbs.db
+
+# Tài liệu bài giảng (video, PDF, ảnh) không commit — xem inbox/README.md
+inbox/*
+!inbox/README.md
+!inbox/.gitkeep
+
+# ---------------------------------------------------------------
+# Mẫu .gitignore cho Node của GitHub (từ commit "Initial commit")
+# ---------------------------------------------------------------
 # Logs
 logs
 *.log

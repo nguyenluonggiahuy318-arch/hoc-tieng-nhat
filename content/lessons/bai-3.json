@@ -1,0 +1,1062 @@
+{
+  "lesson": 3,
+  "title": "だい３か",
+  "sources": [
+    "NGU_PHAP_BAI_3.pdf",
+    "文法第3課_NPbai3.mp4"
+  ],
+  "notes": {
+    "vocab": "Bảng ここ/そこ/あそこ… ở mục Ngữ pháp. Tầng (かい) và quận (く) biến âm ở 1, 6, 8, 10: いっかい, ろっかい, はっかい, じゅっかい; tầng 3 là さんがい.",
+    "vocabSource": "Từ vựng lấy theo bảng từ だい３か trong video bài giảng Bài 3; cột romaji là cách viết chuẩn (Hepburn).",
+    "grammarSource": "Ngữ pháp và ví dụ theo tài liệu NGỮ PHÁP BÀI 3 và video bài giảng 文法第3課 của bạn."
+  },
+  "vocab": [
+    {
+      "group": "Nơi chốn",
+      "items": [
+        {
+          "jp": "ばしょ",
+          "romaji": "basho",
+          "phienam": "Bashô",
+          "vi": "Địa điểm"
+        },
+        {
+          "jp": "きょうしつ",
+          "romaji": "kyōshitsu",
+          "phienam": "Kyôôshitsư",
+          "vi": "Phòng học"
+        },
+        {
+          "jp": "しょくどう",
+          "romaji": "shokudō",
+          "phienam": "Shôkưđôô",
+          "vi": "Nhà ăn"
+        },
+        {
+          "jp": "じむしょ",
+          "romaji": "jimusho",
+          "phienam": "Jimưshô",
+          "vi": "Văn phòng"
+        },
+        {
+          "jp": "かいぎしつ",
+          "romaji": "kaigishitsu",
+          "phienam": "Kaigishitsư",
+          "vi": "Phòng họp"
+        },
+        {
+          "jp": "うけつけ",
+          "romaji": "uketsuke",
+          "phienam": "Ưkêtsưkê",
+          "vi": "Quầy tiếp tân"
+        },
+        {
+          "jp": "ロビー",
+          "romaji": "robī",
+          "phienam": "Rôbii",
+          "vi": "Sảnh đợi"
+        },
+        {
+          "jp": "へや",
+          "romaji": "heya",
+          "phienam": "Hêya",
+          "vi": "Phòng"
+        },
+        {
+          "jp": "トイレ",
+          "romaji": "toire",
+          "phienam": "Tôirê",
+          "vi": "Nhà vệ sinh"
+        },
+        {
+          "jp": "かいだん",
+          "romaji": "kaidan",
+          "phienam": "Kaiđan",
+          "vi": "Cầu thang"
+        },
+        {
+          "jp": "エレベーター",
+          "romaji": "erebētā",
+          "phienam": "Êrêbêêtaa",
+          "vi": "Thang máy"
+        },
+        {
+          "jp": "エスカレーター",
+          "romaji": "esukarētā",
+          "phienam": "Êsưkarêêtaa",
+          "vi": "Thang cuốn"
+        },
+        {
+          "jp": "うち",
+          "romaji": "uchi",
+          "phienam": "Ưchi",
+          "vi": "Nhà"
+        },
+        {
+          "jp": "ホーチミンし",
+          "romaji": "Hōchimin-shi",
+          "phienam": "Hôôchiminshi",
+          "vi": "TP. Hồ Chí Minh"
+        },
+        {
+          "jp": "いなか",
+          "romaji": "inaka",
+          "phienam": "Inaka",
+          "vi": "Quê"
+        },
+        {
+          "jp": "～うりば",
+          "romaji": "~uriba",
+          "phienam": "Ưriba",
+          "vi": "Quầy bán ~"
+        },
+        {
+          "jp": "ちか",
+          "romaji": "chika",
+          "phienam": "Chika",
+          "vi": "Tầng hầm"
+        }
+      ]
+    },
+    {
+      "group": "Tiền & đồ vật",
+      "items": [
+        {
+          "jp": "おかね",
+          "romaji": "okane",
+          "phienam": "Ôkanê",
+          "vi": "Tiền"
+        },
+        {
+          "jp": "えん",
+          "romaji": "en",
+          "phienam": "Ên",
+          "vi": "Yên"
+        },
+        {
+          "jp": "ドル",
+          "romaji": "doru",
+          "phienam": "Đôrư",
+          "vi": "Đô-la"
+        },
+        {
+          "jp": "ドン",
+          "romaji": "don",
+          "phienam": "Đon",
+          "vi": "Đồng (VNĐ)"
+        },
+        {
+          "jp": "シャツ",
+          "romaji": "shatsu",
+          "phienam": "Shatsư",
+          "vi": "Áo sơ mi"
+        },
+        {
+          "jp": "ネクタイ",
+          "romaji": "nekutai",
+          "phienam": "Nêkưtai",
+          "vi": "Cà vạt"
+        },
+        {
+          "jp": "くつ",
+          "romaji": "kutsu",
+          "phienam": "Kưtsư",
+          "vi": "Giày"
+        },
+        {
+          "jp": "ワイン",
+          "romaji": "wain",
+          "phienam": "Wain",
+          "vi": "Rượu vang"
+        },
+        {
+          "jp": "でんわ",
+          "romaji": "denwa",
+          "phienam": "Đenwa",
+          "vi": "Điện thoại"
+        },
+        {
+          "jp": "たばこ",
+          "romaji": "tabako",
+          "phienam": "Tabakô",
+          "vi": "Thuốc lá"
+        },
+        {
+          "jp": "せかい ちず",
+          "romaji": "sekai chizu",
+          "phienam": "Sêkai chizư",
+          "vi": "Bản đồ thế giới"
+        }
+      ]
+    },
+    {
+      "group": "Hàng trăm, nghìn, vạn",
+      "items": [
+        {
+          "jp": "ひゃく",
+          "romaji": "hyaku",
+          "phienam": "Hyakư",
+          "vi": "100"
+        },
+        {
+          "jp": "さんびゃく",
+          "romaji": "sanbyaku",
+          "phienam": "Sambyakư",
+          "vi": "300"
+        },
+        {
+          "jp": "ろっぴゃく",
+          "romaji": "roppyaku",
+          "phienam": "Rôppyakư",
+          "vi": "600"
+        },
+        {
+          "jp": "はっぴゃく",
+          "romaji": "happyaku",
+          "phienam": "Happyakư",
+          "vi": "800"
+        },
+        {
+          "jp": "せん",
+          "romaji": "sen",
+          "phienam": "Sen",
+          "vi": "1.000"
+        },
+        {
+          "jp": "さんぜん",
+          "romaji": "sanzen",
+          "phienam": "Sanzen",
+          "vi": "3.000"
+        },
+        {
+          "jp": "はっせん",
+          "romaji": "hassen",
+          "phienam": "Hassen",
+          "vi": "8.000"
+        },
+        {
+          "jp": "いちまん",
+          "romaji": "ichiman",
+          "phienam": "Ichiman",
+          "vi": "10.000"
+        },
+        {
+          "jp": "じゅうまん",
+          "romaji": "jūman",
+          "phienam": "Jưưman",
+          "vi": "100.000"
+        }
+      ]
+    },
+    {
+      "group": "Quận",
+      "items": [
+        {
+          "jp": "いっく",
+          "romaji": "ikku",
+          "phienam": "Ikkư",
+          "vi": "Quận 1"
+        },
+        {
+          "jp": "にく",
+          "romaji": "niku",
+          "phienam": "Nikư",
+          "vi": "Quận 2"
+        },
+        {
+          "jp": "さんく",
+          "romaji": "sanku",
+          "phienam": "Sankư",
+          "vi": "Quận 3"
+        },
+        {
+          "jp": "よんく",
+          "romaji": "yonku",
+          "phienam": "Yonkư",
+          "vi": "Quận 4"
+        },
+        {
+          "jp": "ごく",
+          "romaji": "goku",
+          "phienam": "Gôkư",
+          "vi": "Quận 5"
+        },
+        {
+          "jp": "ろっく",
+          "romaji": "rokku",
+          "phienam": "Rôkkư",
+          "vi": "Quận 6"
+        },
+        {
+          "jp": "ななく",
+          "romaji": "nanaku",
+          "phienam": "Nanakư",
+          "vi": "Quận 7"
+        },
+        {
+          "jp": "はっく",
+          "romaji": "hakku",
+          "phienam": "Hakkư",
+          "vi": "Quận 8"
+        },
+        {
+          "jp": "きゅうく",
+          "romaji": "kyūku",
+          "phienam": "Kyưưkư",
+          "vi": "Quận 9"
+        },
+        {
+          "jp": "じゅっく",
+          "romaji": "jukku",
+          "phienam": "Jưkkư",
+          "vi": "Quận 10"
+        },
+        {
+          "jp": "じゅういっく",
+          "romaji": "jūikku",
+          "phienam": "Jưưikkư",
+          "vi": "Quận 11"
+        },
+        {
+          "jp": "じゅうにく",
+          "romaji": "jūniku",
+          "phienam": "Jưưnikư",
+          "vi": "Quận 12"
+        },
+        {
+          "jp": "BinhThanhく",
+          "romaji": "Binh Thanh-ku",
+          "phienam": "BinhThanhkư",
+          "vi": "Quận Bình Thạnh"
+        },
+        {
+          "jp": "GoVapく",
+          "romaji": "Go Vap-ku",
+          "phienam": "GoVapkư",
+          "vi": "Quận Gò Vấp"
+        }
+      ]
+    },
+    {
+      "group": "Tầng",
+      "items": [
+        {
+          "jp": "いっかい",
+          "romaji": "ikkai",
+          "phienam": "Ikkai",
+          "vi": "Tầng 1"
+        },
+        {
+          "jp": "にかい",
+          "romaji": "nikai",
+          "phienam": "Nikai",
+          "vi": "Tầng 2"
+        },
+        {
+          "jp": "さんがい",
+          "romaji": "sangai",
+          "phienam": "Sangai",
+          "vi": "Tầng 3"
+        },
+        {
+          "jp": "よんかい",
+          "romaji": "yonkai",
+          "phienam": "Yonkai",
+          "vi": "Tầng 4"
+        },
+        {
+          "jp": "ごかい",
+          "romaji": "gokai",
+          "phienam": "Gôkai",
+          "vi": "Tầng 5"
+        },
+        {
+          "jp": "ろっかい",
+          "romaji": "rokkai",
+          "phienam": "Rôkkai",
+          "vi": "Tầng 6"
+        },
+        {
+          "jp": "ななかい",
+          "romaji": "nanakai",
+          "phienam": "Nanakai",
+          "vi": "Tầng 7"
+        },
+        {
+          "jp": "はっかい",
+          "romaji": "hakkai",
+          "phienam": "Hakkai",
+          "vi": "Tầng 8"
+        },
+        {
+          "jp": "きゅうかい",
+          "romaji": "kyūkai",
+          "phienam": "Kyưưkai",
+          "vi": "Tầng 9"
+        },
+        {
+          "jp": "じゅっかい",
+          "romaji": "jukkai",
+          "phienam": "Jưkkai",
+          "vi": "Tầng 10"
+        },
+        {
+          "jp": "なんがい",
+          "romaji": "nangai",
+          "phienam": "Nangai",
+          "vi": "Tầng mấy?"
+        }
+      ]
+    },
+    {
+      "group": "Mẫu câu",
+      "items": [
+        {
+          "jp": "～を みせて ください",
+          "romaji": "~ o misete kudasai",
+          "phienam": "Ô misêtê kưđasai",
+          "vi": "Hãy cho tôi xem ~"
+        },
+        {
+          "jp": "じゃ、これを ください",
+          "romaji": "ja, kore o kudasai",
+          "phienam": "Ja, kôrê ô kưđasai",
+          "vi": "Vậy thì bán cho tôi cái này"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "ここ / そこ / あそこ は ばしょ です",
+      "meaning": "Chỗ này / chỗ đó / chỗ kia là (địa điểm)",
+      "explain": "Bộ こ・そ・あ cho <b>nơi chốn</b>: <b>ここ</b> chỗ người nói đang đứng, <b>そこ</b> chỗ người nghe, <b>あそこ</b> chỗ xa cả hai. Hỏi \"ở đâu\" bằng <b>どこ</b>.<table class=\"ktable\"><tr><th></th><th>Gần người nói</th><th>Gần người nghe</th><th>Xa cả hai</th><th>Hỏi</th></tr><tr><td>Đồ vật</td><td>これ</td><td>それ</td><td>あれ</td><td>どれ</td></tr><tr><td>＋ N</td><td>この</td><td>その</td><td>あの</td><td>どの</td></tr><tr><td>Nơi chốn</td><td>ここ</td><td>そこ</td><td>あそこ</td><td>どこ</td></tr><tr><td>Lịch sự</td><td>こちら</td><td>そちら</td><td>あちら</td><td>どちら</td></tr></table>",
+      "source": [
+        "pdf",
+        "video"
+      ],
+      "examples": [
+        {
+          "jp": "ここは きょうしつです。",
+          "romaji": "Koko wa kyōshitsu desu.",
+          "vi": "Chỗ này là phòng học."
+        },
+        {
+          "jp": "そこは かいだんです。",
+          "romaji": "Soko wa kaidan desu.",
+          "vi": "Chỗ đó là cầu thang."
+        },
+        {
+          "jp": "あそこは トイレです。",
+          "romaji": "Asoko wa toire desu.",
+          "vi": "Chỗ kia là nhà vệ sinh."
+        },
+        {
+          "jp": "ここは きょうしつですか。",
+          "romaji": "Koko wa kyōshitsu desu ka.",
+          "vi": "Chỗ này là phòng học phải không?"
+        },
+        {
+          "jp": "……はい、そうです。きょうしつです。",
+          "romaji": "Hai, sō desu. Kyōshitsu desu.",
+          "vi": "Vâng, đúng vậy. Là phòng học."
+        },
+        {
+          "jp": "あそこは エレベーターですか。",
+          "romaji": "Asoko wa erebētā desu ka.",
+          "vi": "Chỗ kia là thang máy phải không?"
+        },
+        {
+          "jp": "……いいえ、そうじゃ ありません。トイレです。",
+          "romaji": "Iie, sō ja arimasen. Toire desu.",
+          "vi": "Không, không phải vậy. Là nhà vệ sinh."
+        },
+        {
+          "jp": "かいぎしつは どこですか。",
+          "romaji": "Kaigishitsu wa doko desu ka.",
+          "vi": "Phòng họp thì ở đâu?"
+        },
+        {
+          "jp": "……あそこです。",
+          "romaji": "Asoko desu.",
+          "vi": "Ở chỗ kia."
+        }
+      ]
+    },
+    {
+      "pattern": "こちら / そちら / あちら / どちら",
+      "meaning": "Đằng này / đằng đó / đằng kia / đằng nào",
+      "explain": "Cách nói <b>lịch sự</b> của ここ / そこ / あそこ / どこ, chỉ phương hướng hoặc nơi chốn. Hay dùng ở khách sạn, cửa hàng, công ty.",
+      "source": [
+        "pdf",
+        "video"
+      ],
+      "examples": [
+        {
+          "jp": "こちらは うけつけです。",
+          "romaji": "Kochira wa uketsuke desu.",
+          "vi": "Đằng này là quầy lễ tân."
+        },
+        {
+          "jp": "そちらは ロビーです。",
+          "romaji": "Sochira wa robī desu.",
+          "vi": "Đằng đó là sảnh."
+        },
+        {
+          "jp": "あちらは じむしょです。",
+          "romaji": "Achira wa jimusho desu.",
+          "vi": "Đằng kia là văn phòng."
+        },
+        {
+          "jp": "しょくどうは どちらですか。",
+          "romaji": "Shokudō wa dochira desu ka.",
+          "vi": "Nhà ăn thì ở đằng nào ạ?"
+        },
+        {
+          "jp": "……あちらです。",
+          "romaji": "Achira desu.",
+          "vi": "Ở đằng kia ạ."
+        }
+      ]
+    },
+    {
+      "pattern": "ひと / もの は ばしょ です",
+      "meaning": "Người / đồ vật thì ở (địa điểm)",
+      "explain": "Mẫu ばしょです còn dùng để nói <b>ai đó hoặc cái gì đó đang ở đâu</b>. Hỏi bằng <b>どこですか</b>.",
+      "note": "Câu わたしは きょうしつです không có nghĩa \"tôi là phòng học\" — ngữ cảnh cho biết là \"tôi đang ở phòng học\".",
+      "source": [
+        "pdf",
+        "video"
+      ],
+      "examples": [
+        {
+          "jp": "わたしは きょうしつです。",
+          "romaji": "Watashi wa kyōshitsu desu.",
+          "vi": "Tôi ở phòng học."
+        },
+        {
+          "jp": "ざっしは ロビーです。",
+          "romaji": "Zasshi wa robī desu.",
+          "vi": "Tạp chí thì ở sảnh đợi."
+        },
+        {
+          "jp": "さとうさんは どこですか。",
+          "romaji": "Satō-san wa doko desu ka.",
+          "vi": "Chị Sato thì ở đâu?"
+        },
+        {
+          "jp": "……しょくどうです。",
+          "romaji": "Shokudō desu.",
+          "vi": "Ở nhà ăn."
+        }
+      ]
+    },
+    {
+      "pattern": "N は ～えん です / いくらですか",
+      "meaning": "N có giá … yên / bao nhiêu tiền?",
+      "explain": "Nói giá: số + <b>えん</b>. Hỏi giá bằng <b>いくらですか</b>. Đọc số lớn xem bảng ở mục <a href=\"#so-dem\">Số đếm</a> — chú ý さんびゃく, ろっぴゃく, はっぴゃく, さんぜん, はっせん.",
+      "note": "Tiền Việt: số + ドン (đồng), ví dụ ごまん ドン = 50.000 đồng. Đô-la: ドル.",
+      "source": [
+        "pdf",
+        "video"
+      ],
+      "examples": [
+        {
+          "jp": "この かばんは さんぜん はっぴゃく えんです。",
+          "romaji": "Kono kaban wa sanzen happyaku en desu.",
+          "vi": "Cái cặp này giá 3.800 yên."
+        },
+        {
+          "jp": "あの とけいは いちまん はっせん えんです。",
+          "romaji": "Ano tokei wa ichiman hassen en desu.",
+          "vi": "Đồng hồ kia giá 18.000 yên."
+        },
+        {
+          "jp": "この くつは いくらですか。",
+          "romaji": "Kono kutsu wa ikura desu ka.",
+          "vi": "Đôi giày này bao nhiêu tiền ạ?"
+        },
+        {
+          "jp": "……きゅうせん ごひゃく えんです。",
+          "romaji": "Kyūsen gohyaku en desu.",
+          "vi": "9.500 yên ạ."
+        }
+      ]
+    },
+    {
+      "pattern": "これ / それ / あれ は くに の N です",
+      "meaning": "Cái này / đó / kia là N (xuất xứ) của nước …",
+      "explain": "の chỉ <b>xuất xứ</b>: N được sản xuất ở nước nào. Hỏi bằng <b>どこの N ですか</b> (N của nước nào?).",
+      "note": "So sánh: だれの (của ai) · なんの (về cái gì) · どこの (của nước nào / công ty nào).",
+      "source": [
+        "pdf",
+        "video"
+      ],
+      "examples": [
+        {
+          "jp": "これは フランスの ワインです。",
+          "romaji": "Kore wa Furansu no wain desu.",
+          "vi": "Cái này là rượu vang Pháp."
+        },
+        {
+          "jp": "あれは にほんの くるまです。",
+          "romaji": "Are wa Nihon no kuruma desu.",
+          "vi": "Cái kia là xe hơi Nhật."
+        },
+        {
+          "jp": "それは どこの くつですか。",
+          "romaji": "Sore wa doko no kutsu desu ka.",
+          "vi": "Cái đó là giày của nước nào vậy?"
+        },
+        {
+          "jp": "……これは イタリアの くつです。",
+          "romaji": "Kore wa Itaria no kutsu desu.",
+          "vi": "Cái này là giày Ý ạ."
+        }
+      ]
+    },
+    {
+      "pattern": "この / その / あの N は くに の です",
+      "meaning": "N này / đó / kia là (hàng) của nước …",
+      "explain": "Đưa vật lên đầu câu bằng この / その / あの N, rồi bỏ danh từ sau の. Hỏi bằng <b>どこのですか</b>.",
+      "source": [
+        "pdf",
+        "video"
+      ],
+      "examples": [
+        {
+          "jp": "その コーヒーは ブラジルのです。",
+          "romaji": "Sono kōhī wa Burajiru no desu.",
+          "vi": "Cà phê đó là của Brazil."
+        },
+        {
+          "jp": "あの とけいは スイスのです。",
+          "romaji": "Ano tokei wa Suisu no desu.",
+          "vi": "Đồng hồ kia là của Thụy Sĩ."
+        },
+        {
+          "jp": "この ワインは どこのですか。",
+          "romaji": "Kono wain wa doko no desu ka.",
+          "vi": "Rượu vang này là của nước nào vậy?"
+        },
+        {
+          "jp": "……オーストラリアのです。",
+          "romaji": "Ōsutoraria no desu.",
+          "vi": "Của Úc ạ."
+        }
+      ]
+    },
+    {
+      "pattern": "ばしょ は ～かい です / なんがい ですか",
+      "meaning": "(Địa điểm) ở tầng … / tầng mấy?",
+      "explain": "Tầng = số + <b>かい</b>. Hỏi tầng mấy bằng <b>なんがい</b>. Tầng hầm là <b>ちか</b>. Chú ý biến âm: <b>いっかい</b> (1), <b>さんがい</b> (3), <b>ろっかい</b> (6), <b>はっかい</b> (8), <b>じゅっかい</b> (10).",
+      "note": "Quận cũng đếm bằng số + く, biến âm giống tầng: いっく, ろっく, はっく, じゅっく.",
+      "source": [
+        "pdf",
+        "video"
+      ],
+      "examples": [
+        {
+          "jp": "うけつけは いっかいです。",
+          "romaji": "Uketsuke wa ikkai desu.",
+          "vi": "Quầy tiếp tân ở tầng 1."
+        },
+        {
+          "jp": "ワインうりばは なんがいですか。",
+          "romaji": "Wain-uriba wa nangai desu ka.",
+          "vi": "Quầy bán rượu ở tầng mấy ạ?"
+        },
+        {
+          "jp": "……ちかです。",
+          "romaji": "Chika desu.",
+          "vi": "Ở tầng hầm ạ."
+        },
+        {
+          "jp": "しょくどうは どこですか。",
+          "romaji": "Shokudō wa doko desu ka.",
+          "vi": "Nhà ăn ở đâu ạ?"
+        },
+        {
+          "jp": "……ごかいです。",
+          "romaji": "Gokai desu.",
+          "vi": "Ở tầng 5 ạ."
+        }
+      ]
+    },
+    {
+      "pattern": "ばしょ は どちら ですか",
+      "meaning": "(Công ty / nước) của bạn là gì / ở đâu?",
+      "explain": "Dùng <b>どちら</b> (lịch sự) để hỏi tên công ty, trường học, đất nước của người nghe. <b>おくに</b> = đất nước (của bạn), nói lịch sự.",
+      "source": [
+        "pdf",
+        "video"
+      ],
+      "examples": [
+        {
+          "jp": "かいしゃは どちらですか。",
+          "romaji": "Kaisha wa dochira desu ka.",
+          "vi": "Công ty anh là công ty nào ạ?"
+        },
+        {
+          "jp": "……FPTです。",
+          "romaji": "Efu Pī Tī desu.",
+          "vi": "Công ty FPT."
+        },
+        {
+          "jp": "おくには どちらですか。",
+          "romaji": "Okuni wa dochira desu ka.",
+          "vi": "Bạn đến từ nước nào ạ?"
+        },
+        {
+          "jp": "……ベトナムです。",
+          "romaji": "Betonamu desu.",
+          "vi": "Việt Nam."
+        }
+      ]
+    }
+  ],
+  "fill": [
+    {
+      "q": "＿＿は きょうしつです。(chỗ mình đang đứng)",
+      "options": [
+        "ここ",
+        "これ",
+        "この",
+        "あそこ"
+      ],
+      "answer": "ここ",
+      "vi": "Chỗ này là phòng học.",
+      "why": "Nơi chốn gần người nói → ここ."
+    },
+    {
+      "q": "＿＿は トイレです。(chỗ ở xa cả hai người)",
+      "options": [
+        "あそこ",
+        "あれ",
+        "そこ",
+        "あの"
+      ],
+      "answer": "あそこ",
+      "vi": "Chỗ kia là nhà vệ sinh.",
+      "why": "Nơi chốn xa cả hai → あそこ."
+    },
+    {
+      "q": "かいぎしつは ＿＿ですか。 …あそこです。",
+      "options": [
+        "どこ",
+        "どれ",
+        "だれ",
+        "なん"
+      ],
+      "answer": "どこ",
+      "vi": "Phòng họp ở đâu? — Ở chỗ kia.",
+      "why": "Hỏi nơi chốn → どこ."
+    },
+    {
+      "q": "しょくどうは ＿＿ですか。 …あちらです。(nói lịch sự)",
+      "options": [
+        "どちら",
+        "どこ",
+        "どれ",
+        "なんがい"
+      ],
+      "answer": "どちら",
+      "vi": "Nhà ăn ở đằng nào ạ? — Đằng kia ạ.",
+      "why": "Câu trả lời là あちら (lịch sự) → hỏi bằng どちら."
+    },
+    {
+      "q": "さとうさんは ＿＿ですか。 …しょくどうです。",
+      "options": [
+        "どこ",
+        "だれ",
+        "いくら",
+        "なん"
+      ],
+      "answer": "どこ",
+      "vi": "Chị Sato ở đâu? — Ở nhà ăn.",
+      "why": "Hỏi người đang ở đâu → どこ."
+    },
+    {
+      "q": "この くつは ＿＿ですか。 …きゅうせん ごひゃく えんです。",
+      "options": [
+        "いくら",
+        "どこ",
+        "なんがい",
+        "なんさい"
+      ],
+      "answer": "いくら",
+      "vi": "Đôi giày này bao nhiêu tiền? — 9.500 yên.",
+      "why": "Hỏi giá → いくら."
+    },
+    {
+      "q": "この かばんは さんぜん ＿＿ えんです。(3.800)",
+      "options": [
+        "はっぴゃく",
+        "はちひゃく",
+        "はっひゃく",
+        "はちびゃく"
+      ],
+      "answer": "はっぴゃく",
+      "vi": "Cái cặp này giá 3.800 yên.",
+      "why": "800 = はっぴゃく (biến âm)."
+    },
+    {
+      "q": "あの とけいは いちまん ＿＿ えんです。(18.000)",
+      "options": [
+        "はっせん",
+        "はちせん",
+        "はっぜん",
+        "はちぜん"
+      ],
+      "answer": "はっせん",
+      "vi": "Đồng hồ kia giá 18.000 yên.",
+      "why": "8.000 = はっせん."
+    },
+    {
+      "q": "それは ＿＿の くつですか。 …イタリアの くつです。",
+      "options": [
+        "どこ",
+        "だれ",
+        "なん",
+        "どちら"
+      ],
+      "answer": "どこ",
+      "vi": "Đó là giày của nước nào? — Giày Ý.",
+      "why": "Hỏi xuất xứ → どこの."
+    },
+    {
+      "q": "これは フランス＿＿ ワインです。",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "か"
+      ],
+      "answer": "の",
+      "vi": "Cái này là rượu vang Pháp.",
+      "why": "Nước + の + N = N xuất xứ từ nước đó."
+    },
+    {
+      "q": "この ワインは どこ＿＿ですか。 …オーストラリアのです。",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "から"
+      ],
+      "answer": "の",
+      "vi": "Rượu vang này của nước nào? — Của Úc.",
+      "why": "どこのですか (bỏ danh từ sau の)."
+    },
+    {
+      "q": "ワインうりばは ＿＿ですか。 …ちかです。",
+      "options": [
+        "なんがい",
+        "いくら",
+        "どなた",
+        "なんの"
+      ],
+      "answer": "なんがい",
+      "vi": "Quầy bán rượu ở tầng mấy? — Ở tầng hầm.",
+      "why": "Hỏi tầng → なんがい."
+    },
+    {
+      "q": "うけつけは ＿＿です。(tầng 1)",
+      "options": [
+        "いっかい",
+        "いちかい",
+        "ひとかい",
+        "いっがい"
+      ],
+      "answer": "いっかい",
+      "vi": "Tiếp tân ở tầng 1.",
+      "why": "Tầng 1 = いっかい."
+    },
+    {
+      "q": "トイレは ＿＿です。(tầng 3)",
+      "options": [
+        "さんがい",
+        "さんかい",
+        "さっかい",
+        "さんばい"
+      ],
+      "answer": "さんがい",
+      "vi": "Nhà vệ sinh ở tầng 3.",
+      "why": "Tầng 3 = さんがい (biến âm thành が)."
+    },
+    {
+      "q": "かいしゃは ＿＿ですか。 …FPTです。",
+      "options": [
+        "どちら",
+        "いくら",
+        "なんがい",
+        "だれ"
+      ],
+      "answer": "どちら",
+      "vi": "Công ty anh là công ty nào? — FPT.",
+      "why": "Hỏi tên công ty lịch sự → どちら."
+    },
+    {
+      "q": "お＿＿は どちらですか。 …ベトナムです。",
+      "options": [
+        "くに",
+        "かいしゃ",
+        "うち",
+        "へや"
+      ],
+      "answer": "くに",
+      "vi": "Bạn đến từ nước nào? — Việt Nam.",
+      "why": "おくに = đất nước (của bạn)."
+    },
+    {
+      "q": "じゃ、これ＿＿ ください。",
+      "options": [
+        "を",
+        "は",
+        "の",
+        "も"
+      ],
+      "answer": "を",
+      "vi": "Vậy thì bán cho tôi cái này.",
+      "why": "N を ください = cho tôi N."
+    }
+  ],
+  "order": [
+    {
+      "vi": "Chỗ này là phòng học.",
+      "words": [
+        "ここ",
+        "は",
+        "きょうしつ",
+        "です"
+      ]
+    },
+    {
+      "vi": "Phòng họp thì ở đâu?",
+      "words": [
+        "かいぎしつ",
+        "は",
+        "どこ",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Nhà ăn ở đằng nào ạ?",
+      "words": [
+        "しょくどう",
+        "は",
+        "どちら",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Đằng này là quầy lễ tân.",
+      "words": [
+        "こちら",
+        "は",
+        "うけつけ",
+        "です"
+      ]
+    },
+    {
+      "vi": "Tạp chí thì ở sảnh đợi.",
+      "words": [
+        "ざっし",
+        "は",
+        "ロビー",
+        "です"
+      ]
+    },
+    {
+      "vi": "Đôi giày này bao nhiêu tiền?",
+      "words": [
+        "この",
+        "くつ",
+        "は",
+        "いくら",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Cái cặp này giá 3.800 yên.",
+      "words": [
+        "この",
+        "かばん",
+        "は",
+        "さんぜん",
+        "はっぴゃく",
+        "えん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Cái này là rượu vang Pháp.",
+      "words": [
+        "これ",
+        "は",
+        "フランス",
+        "の",
+        "ワイン",
+        "です"
+      ]
+    },
+    {
+      "vi": "Đó là giày của nước nào vậy?",
+      "words": [
+        "それ",
+        "は",
+        "どこ",
+        "の",
+        "くつ",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Đồng hồ kia là của Thụy Sĩ.",
+      "words": [
+        "あの",
+        "とけい",
+        "は",
+        "スイス",
+        "の",
+        "です"
+      ]
+    },
+    {
+      "vi": "Quầy bán rượu ở tầng mấy?",
+      "words": [
+        "ワインうりば",
+        "は",
+        "なんがい",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Bạn đến từ nước nào ạ?",
+      "words": [
+        "おくに",
+        "は",
+        "どちら",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Vậy thì bán cho tôi cái này.",
+      "words": [
+        "じゃ、",
+        "これ",
+        "を",
+        "ください"
+      ]
+    }
+  ],
+  "corrections": [
+    "PDF ghi 'なしょ' → sửa thành 'ばしょ'"
+  ]
+}

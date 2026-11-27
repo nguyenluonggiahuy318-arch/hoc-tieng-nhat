@@ -1,0 +1,1078 @@
+{
+  "lesson": 1,
+  "title": "だい１か",
+  "sources": [
+    "Tài liệu từ vựng だい１か",
+    "Video bài giảng Bài 1"
+  ],
+  "notes": {
+    "vocab": "Chú ý: は trong こんにちは / こんばんは đọc là <b>wa</b>; dấu ー và nguyên âm đôi (おう, えい) được kéo dài.",
+    "vocabSource": "Từ vựng và cột phiên âm lấy theo tài liệu だい１か (Bài 1) bạn gửi; cột romaji là cách viết chuẩn (Hepburn).",
+    "grammarSource": "Ngữ pháp theo Bài 1 giáo trình Minna no Nihongo, ví dụ dùng từ vựng trong tài liệu だい１か (Bài 1) và video bài giảng của bạn."
+  },
+  "vocab": [
+    {
+      "group": "Đại từ & lớp học",
+      "items": [
+        {
+          "jp": "わたし",
+          "romaji": "watashi",
+          "phienam": "Watashi",
+          "vi": "Tôi"
+        },
+        {
+          "jp": "みなさん",
+          "romaji": "minasan",
+          "phienam": "Minasan",
+          "vi": "Các bạn"
+        },
+        {
+          "jp": "なまえ",
+          "romaji": "namae",
+          "phienam": "Namaê",
+          "vi": "Tên"
+        },
+        {
+          "jp": "しつもん",
+          "romaji": "shitsumon",
+          "phienam": "Shitsưmon",
+          "vi": "Câu hỏi"
+        },
+        {
+          "jp": "こたえ",
+          "romaji": "kotae",
+          "phienam": "Kôtaê",
+          "vi": "Câu trả lời"
+        }
+      ]
+    },
+    {
+      "group": "Chào hỏi",
+      "items": [
+        {
+          "jp": "おはようございます",
+          "romaji": "ohayō gozaimasu",
+          "phienam": "Ohayôôgôzaimasư",
+          "vi": "Chào buổi sáng"
+        },
+        {
+          "jp": "こんにちは",
+          "romaji": "konnichiwa",
+          "phienam": "Konnichiwa",
+          "vi": "Chào buổi trưa"
+        },
+        {
+          "jp": "こんばんは",
+          "romaji": "konbanwa",
+          "phienam": "Kombanwa",
+          "vi": "Chào buổi tối"
+        },
+        {
+          "jp": "さようなら",
+          "romaji": "sayōnara",
+          "phienam": "Sayôônara",
+          "vi": "Tạm biệt"
+        },
+        {
+          "jp": "おやすみなさい",
+          "romaji": "oyasuminasai",
+          "phienam": "Ôyasưminasai",
+          "vi": "Chúc ngủ ngon"
+        }
+      ]
+    },
+    {
+      "group": "Nghề nghiệp",
+      "items": [
+        {
+          "jp": "せんせい",
+          "romaji": "sensei",
+          "phienam": "Sensêê",
+          "vi": "Giáo viên"
+        },
+        {
+          "jp": "がくせい",
+          "romaji": "gakusei",
+          "phienam": "Gakưsêê",
+          "vi": "Học sinh"
+        },
+        {
+          "jp": "かいしゃいん",
+          "romaji": "kaishain",
+          "phienam": "Kaishain",
+          "vi": "Nhân viên công ty"
+        },
+        {
+          "jp": "ぎんこういん",
+          "romaji": "ginkōin",
+          "phienam": "Gingkôôin",
+          "vi": "Nhân viên ngân hàng"
+        },
+        {
+          "jp": "いしゃ",
+          "romaji": "isha",
+          "phienam": "Isha",
+          "vi": "Bác sĩ"
+        }
+      ]
+    },
+    {
+      "group": "Đất nước",
+      "items": [
+        {
+          "jp": "くに",
+          "romaji": "kuni",
+          "phienam": "Kưni",
+          "vi": "Đất nước"
+        },
+        {
+          "jp": "にほん",
+          "romaji": "nihon",
+          "phienam": "Nihon",
+          "vi": "Nhật Bản"
+        },
+        {
+          "jp": "ちゅうごく",
+          "romaji": "chūgoku",
+          "phienam": "Chyưưgôkư",
+          "vi": "Trung Quốc"
+        },
+        {
+          "jp": "かんこく",
+          "romaji": "kankoku",
+          "phienam": "Kankôkư",
+          "vi": "Hàn Quốc"
+        },
+        {
+          "jp": "がいこく",
+          "romaji": "gaikoku",
+          "phienam": "Gaikôkư",
+          "vi": "Nước ngoài"
+        },
+        {
+          "jp": "タイ",
+          "romaji": "tai",
+          "phienam": "Tai",
+          "vi": "Thái Lan"
+        },
+        {
+          "jp": "ベトナム",
+          "romaji": "betonamu",
+          "phienam": "Bêtônamư",
+          "vi": "Việt Nam"
+        },
+        {
+          "jp": "インドネシア",
+          "romaji": "indoneshia",
+          "phienam": "Inđônêshia",
+          "vi": "Indonesia"
+        },
+        {
+          "jp": "アメリカ",
+          "romaji": "amerika",
+          "phienam": "Amêrica",
+          "vi": "Mỹ"
+        },
+        {
+          "jp": "イギリス",
+          "romaji": "igirisu",
+          "phienam": "Igirisư",
+          "vi": "Anh"
+        },
+        {
+          "jp": "フランス",
+          "romaji": "furansu",
+          "phienam": "Fưransư",
+          "vi": "Pháp"
+        },
+        {
+          "jp": "ドイツ",
+          "romaji": "doitsu",
+          "phienam": "Đôitsư",
+          "vi": "Đức"
+        },
+        {
+          "jp": "イタリア",
+          "romaji": "itaria",
+          "phienam": "Itaria",
+          "vi": "Ý"
+        },
+        {
+          "jp": "スペイン",
+          "romaji": "supein",
+          "phienam": "Sưpêin",
+          "vi": "Tây Ban Nha"
+        },
+        {
+          "jp": "スイス",
+          "romaji": "suisu",
+          "phienam": "Sưisư",
+          "vi": "Thụy Sỹ"
+        },
+        {
+          "jp": "オーストラリア",
+          "romaji": "ōsutoraria",
+          "phienam": "Ôôsưtôraria",
+          "vi": "Úc"
+        },
+        {
+          "jp": "ブラジル",
+          "romaji": "burajiru",
+          "phienam": "Bưrajirư",
+          "vi": "Braxin"
+        },
+        {
+          "jp": "インド",
+          "romaji": "indo",
+          "phienam": "Inđô",
+          "vi": "Ấn Độ"
+        }
+      ]
+    },
+    {
+      "group": "Người",
+      "items": [
+        {
+          "jp": "ひと",
+          "romaji": "hito",
+          "phienam": "Hitô",
+          "vi": "Người"
+        },
+        {
+          "jp": "にほんじん",
+          "romaji": "nihonjin",
+          "phienam": "Nihonjin",
+          "vi": "Người Nhật"
+        },
+        {
+          "jp": "かんこくじん",
+          "romaji": "kankokujin",
+          "phienam": "Kankôkưjin",
+          "vi": "Người Hàn Quốc"
+        },
+        {
+          "jp": "ちゅうごくじん",
+          "romaji": "chūgokujin",
+          "phienam": "Chyưưgôkưjin",
+          "vi": "Người Trung Quốc"
+        },
+        {
+          "jp": "タイじん",
+          "romaji": "taijin",
+          "phienam": "Taijin",
+          "vi": "Người Thái"
+        },
+        {
+          "jp": "アメリカじん",
+          "romaji": "amerikajin",
+          "phienam": "Amêrikajin",
+          "vi": "Người Mỹ"
+        },
+        {
+          "jp": "ブラジルじん",
+          "romaji": "burajirujin",
+          "phienam": "Bưrajirưjin",
+          "vi": "Người Braxin"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "N1 は N2 です",
+      "meaning": "N1 là N2",
+      "explain": "Mẫu câu cơ bản nhất để giới thiệu. <b>は</b> là trợ từ đánh dấu chủ đề — viết là は nhưng đọc là <b>wa</b>. <b>です</b> đứng cuối câu, làm câu lịch sự.",
+      "note": "です đọc gần như \"des\": âm u cuối rất nhẹ.",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "わたしは がくせいです。",
+          "romaji": "Watashi wa gakusei desu.",
+          "vi": "Tôi là học sinh."
+        },
+        {
+          "jp": "わたしは ベトナムじんです。",
+          "romaji": "Watashi wa Betonamujin desu.",
+          "vi": "Tôi là người Việt Nam."
+        },
+        {
+          "jp": "やまださんは せんせいです。",
+          "romaji": "Yamada-san wa sensei desu.",
+          "vi": "Anh/chị Yamada là giáo viên."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は N2 じゃ ありません",
+      "meaning": "N1 không phải là N2",
+      "explain": "Thể phủ định của です. <b>じゃ ありません</b> dùng khi nói; <b>では ありません</b> trang trọng hơn, hay dùng khi viết (は ở đây cũng đọc là wa → <i>dewa</i>).",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "わたしは せんせいじゃ ありません。",
+          "romaji": "Watashi wa sensei ja arimasen.",
+          "vi": "Tôi không phải là giáo viên."
+        },
+        {
+          "jp": "リンさんは にほんじんでは ありません。",
+          "romaji": "Rin-san wa Nihonjin dewa arimasen.",
+          "vi": "Linh không phải là người Nhật."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は N2 ですか",
+      "meaning": "N1 có phải là N2 không?",
+      "explain": "Thêm <b>か</b> vào cuối câu là thành câu hỏi, không cần đổi thứ tự từ. Khi nói thì lên giọng ở か. Trả lời bằng <b>はい</b> (vâng) hoặc <b>いいえ</b> (không).",
+      "note": "Trong câu trả lời thường bỏ chủ ngữ vì người nghe đã biết đang nói về ai.",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "ミラーさんは アメリカじんですか。",
+          "romaji": "Mirā-san wa Amerikajin desu ka.",
+          "vi": "Anh Miller có phải là người Mỹ không?"
+        },
+        {
+          "jp": "……はい、アメリカじんです。",
+          "romaji": "Hai, Amerikajin desu.",
+          "vi": "Vâng, là người Mỹ."
+        },
+        {
+          "jp": "やまださんは いしゃですか。",
+          "romaji": "Yamada-san wa isha desu ka.",
+          "vi": "Anh Yamada có phải là bác sĩ không?"
+        },
+        {
+          "jp": "……いいえ、いしゃじゃ ありません。せんせいです。",
+          "romaji": "Iie, isha ja arimasen. Sensei desu.",
+          "vi": "Không, không phải bác sĩ. Là giáo viên."
+        }
+      ]
+    },
+    {
+      "pattern": "N も",
+      "meaning": "N cũng …",
+      "explain": "Dùng <b>も</b> <u>thay cho</u> <b>は</b> khi nói về điều giống với câu trước.",
+      "note": "Khi trả lời いいえ cho câu hỏi có も, phải đổi も về <b>は</b> (ミラーさん<b>は</b>…じゃ ありません). Không dùng は và も cùng lúc: ✗ わたしはも.",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "やまださんは にほんじんです。さとうさんも にほんじんです。",
+          "romaji": "Yamada-san wa Nihonjin desu. Satō-san mo Nihonjin desu.",
+          "vi": "Anh Yamada là người Nhật. Chị Sato cũng là người Nhật."
+        },
+        {
+          "jp": "まつもとさんも にほんじんですか。",
+          "romaji": "Matsumoto-san mo Nihonjin desu ka.",
+          "vi": "Anh Matsumoto cũng là người Nhật phải không?"
+        },
+        {
+          "jp": "……はい、まつもとさんも にほんじんです。",
+          "romaji": "Hai, Matsumoto-san mo Nihonjin desu.",
+          "vi": "Vâng, anh Matsumoto cũng là người Nhật."
+        },
+        {
+          "jp": "ミラーさんも にほんじんですか。",
+          "romaji": "Mirā-san mo Nihonjin desu ka.",
+          "vi": "Anh Miller cũng là người Nhật phải không?"
+        },
+        {
+          "jp": "……いいえ、ミラーさんは にほんじんじゃ ありません。",
+          "romaji": "Iie, Mirā-san wa Nihonjin ja arimasen.",
+          "vi": "Không, anh Miller thì không phải là người Nhật."
+        },
+        {
+          "jp": "サントスさんも にほんじんじゃ ありません。",
+          "romaji": "Santosu-san mo Nihonjin ja arimasen.",
+          "vi": "Anh Santos cũng không phải là người Nhật."
+        }
+      ]
+    },
+    {
+      "pattern": "N（くに）から きました",
+      "meaning": "(Tôi) đến từ ~",
+      "explain": "<b>から</b> = từ; <b>きました</b> = đã đến. Dùng để nói mình đến từ nước nào, rất hay dùng khi tự giới thiệu.",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "ミラーさんは アメリカから きました。",
+          "romaji": "Mirā-san wa Amerika kara kimashita.",
+          "vi": "Anh Miller đến từ Mỹ."
+        },
+        {
+          "jp": "わたしは ベトナムから きました。",
+          "romaji": "Watashi wa Betonamu kara kimashita.",
+          "vi": "Tôi đến từ Việt Nam."
+        },
+        {
+          "jp": "マリアさんは フランスから きました。",
+          "romaji": "Maria-san wa Furansu kara kimashita.",
+          "vi": "Chị Maria đến từ Pháp."
+        },
+        {
+          "jp": "アラジンさんは インドから きました。",
+          "romaji": "Arajin-san wa Indo kara kimashita.",
+          "vi": "Anh Aladdin đến từ Ấn Độ."
+        }
+      ]
+    },
+    {
+      "pattern": "くに ＋ じん",
+      "meaning": "người nước ~",
+      "explain": "Thêm <b>じん</b> sau tên nước là thành \"người nước đó\". Không cần học thuộc từng từ — cứ ghép là được.",
+      "note": "がいこく (nước ngoài) + じん → がいこくじん = người nước ngoài.",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "にほん → にほんじん",
+          "romaji": "Nihon → Nihonjin",
+          "vi": "Nhật Bản → người Nhật"
+        },
+        {
+          "jp": "かんこく → かんこくじん",
+          "romaji": "Kankoku → Kankokujin",
+          "vi": "Hàn Quốc → người Hàn"
+        },
+        {
+          "jp": "ちゅうごく → ちゅうごくじん",
+          "romaji": "Chūgoku → Chūgokujin",
+          "vi": "Trung Quốc → người Trung Quốc"
+        },
+        {
+          "jp": "ベトナム → ベトナムじん",
+          "romaji": "Betonamu → Betonamujin",
+          "vi": "Việt Nam → người Việt Nam"
+        },
+        {
+          "jp": "わたしは ベトナムじんです。",
+          "romaji": "Watashi wa Betonamujin desu.",
+          "vi": "Tôi là người Việt Nam."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 の N2",
+      "meaning": "N2 của / thuộc N1",
+      "explain": "<b>の</b> nối hai danh từ, N1 bổ nghĩa cho N2. Thứ tự <b>ngược với tiếng Việt</b>: tiếng Việt nói \"tên <i>của tôi</i>\", tiếng Nhật nói \"<i>わたしの</i> なまえ\".",
+      "note": "だいがく = đại học · にほんご = tiếng Nhật.",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "わたしの なまえは リンです。",
+          "romaji": "Watashi no namae wa Rin desu.",
+          "vi": "Tên tôi là Linh."
+        },
+        {
+          "jp": "わたしは さくらだいがくの がくせいです。",
+          "romaji": "Watashi wa Sakura daigaku no gakusei desu.",
+          "vi": "Tôi là sinh viên trường đại học Sakura."
+        },
+        {
+          "jp": "やまださんは にほんごの せんせいです。",
+          "romaji": "Yamada-san wa nihongo no sensei desu.",
+          "vi": "Anh Yamada là giáo viên tiếng Nhật."
+        }
+      ]
+    },
+    {
+      "pattern": "～さん",
+      "meaning": "anh / chị / ông / bà …",
+      "explain": "Gắn sau tên <b>người khác</b> để lịch sự, dùng cho cả nam lẫn nữ. <b>Không</b> dùng cho chính mình. Với trẻ em thường dùng ～ちゃん, bé trai ～くん.",
+      "note": "Khi nói chuyện trực tiếp, người Nhật thường gọi tên + さん thay vì dùng あなた (bạn).",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "やまださんは にほんじんです。",
+          "romaji": "Yamada-san wa Nihonjin desu.",
+          "vi": "Anh Yamada là người Nhật."
+        },
+        {
+          "jp": "わたしは リンです。",
+          "romaji": "Watashi wa Rin desu.",
+          "vi": "Tôi là Linh. (không nói ✗ リンさんです)"
+        }
+      ]
+    },
+    {
+      "pattern": "だれ / どなた",
+      "meaning": "ai",
+      "explain": "Từ để hỏi người. <b>どなた</b> là cách nói lịch sự của だれ. Dùng như một danh từ: đặt vào vị trí N2 rồi thêm ですか.",
+      "note": "あの = kia · かた là cách nói lịch sự của ひと (người).",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "あの ひとは だれですか。",
+          "romaji": "Ano hito wa dare desu ka.",
+          "vi": "Người kia là ai?"
+        },
+        {
+          "jp": "……やまださんです。",
+          "romaji": "Yamada-san desu.",
+          "vi": "Là anh Yamada."
+        },
+        {
+          "jp": "あの かたは どなたですか。",
+          "romaji": "Ano kata wa donata desu ka.",
+          "vi": "Vị kia là ai ạ?"
+        }
+      ]
+    },
+    {
+      "pattern": "なんさい / おいくつ",
+      "meaning": "mấy tuổi",
+      "explain": "Hỏi tuổi. <b>おいくつ</b> lịch sự hơn なんさい. Trả lời bằng số + <b>さい</b> (tuổi).",
+      "note": "Tuổi tận cùng 1, 8, 0 và tuổi 20 đọc biến âm (いっさい, はっさい, じゅっさい, はたち). Xem bảng đầy đủ và luyện tập ở mục <a href=\"#so-dem\">Số đếm</a>.",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "なんさいですか。",
+          "romaji": "Nansai desu ka.",
+          "vi": "Bạn bao nhiêu tuổi?"
+        },
+        {
+          "jp": "……じゅうごさいです。",
+          "romaji": "Jūgo-sai desu.",
+          "vi": "15 tuổi."
+        },
+        {
+          "jp": "おいくつですか。",
+          "romaji": "Oikutsu desu ka.",
+          "vi": "Bác bao nhiêu tuổi ạ?"
+        },
+        {
+          "jp": "……ななじゅっさいです。",
+          "romaji": "Nanajussai desu.",
+          "vi": "70 tuổi."
+        }
+      ]
+    }
+  ],
+  "fill": [
+    {
+      "q": "わたし＿＿ がくせいです。",
+      "options": [
+        "は",
+        "も",
+        "の",
+        "か"
+      ],
+      "answer": "は",
+      "vi": "Tôi là học sinh.",
+      "why": "は đánh dấu chủ đề của câu (đọc là wa)."
+    },
+    {
+      "q": "わたしは がくせいです。リンさん＿＿ がくせいです。",
+      "options": [
+        "も",
+        "は",
+        "の",
+        "か"
+      ],
+      "answer": "も",
+      "vi": "Tôi là học sinh. Linh cũng là học sinh.",
+      "why": "Giống câu trước → dùng も (cũng) thay cho は."
+    },
+    {
+      "q": "わたし＿＿ なまえは リンです。",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "か"
+      ],
+      "answer": "の",
+      "vi": "Tên của tôi là Linh.",
+      "why": "の nối hai danh từ: わたしの なまえ = tên của tôi."
+    },
+    {
+      "q": "ミラーさんは アメリカじんです＿＿。",
+      "options": [
+        "か",
+        "の",
+        "も",
+        "は"
+      ],
+      "answer": "か",
+      "vi": "Anh Miller có phải là người Mỹ không?",
+      "why": "Thêm か cuối câu để thành câu hỏi."
+    },
+    {
+      "q": "やまださんは がくせい＿＿。",
+      "options": [
+        "じゃ ありません",
+        "です",
+        "ですか",
+        "も"
+      ],
+      "answer": "じゃ ありません",
+      "vi": "Anh Yamada không phải là học sinh.",
+      "why": "Phủ định của です là じゃ ありません."
+    },
+    {
+      "q": "A: リンさんは ベトナムじんですか。 B: ＿＿、ベトナムじんです。",
+      "options": [
+        "はい",
+        "いいえ",
+        "だれ",
+        "なんさい"
+      ],
+      "answer": "はい",
+      "vi": "Linh là người Việt Nam phải không? — Vâng, là người Việt Nam.",
+      "why": "Câu trả lời khẳng định → はい."
+    },
+    {
+      "q": "A: やまださんは いしゃですか。 B: ＿＿、いしゃじゃ ありません。",
+      "options": [
+        "いいえ",
+        "はい",
+        "だれ",
+        "も"
+      ],
+      "answer": "いいえ",
+      "vi": "Anh Yamada là bác sĩ à? — Không, không phải bác sĩ.",
+      "why": "Câu trả lời phủ định → いいえ."
+    },
+    {
+      "q": "あの ひとは ＿＿ですか。 …やまださんです。",
+      "options": [
+        "だれ",
+        "なんさい",
+        "はい",
+        "の"
+      ],
+      "answer": "だれ",
+      "vi": "Người kia là ai? — Là anh Yamada.",
+      "why": "Hỏi người → だれ (ai)."
+    },
+    {
+      "q": "＿＿ですか。 …19さいです。",
+      "options": [
+        "なんさい",
+        "だれ",
+        "どなた",
+        "いいえ"
+      ],
+      "answer": "なんさい",
+      "vi": "Bạn bao nhiêu tuổi? — 19 tuổi.",
+      "why": "Hỏi tuổi → なんさい."
+    },
+    {
+      "q": "やまださんは にほんご＿＿ せんせいです。",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "か"
+      ],
+      "answer": "の",
+      "vi": "Anh Yamada là giáo viên tiếng Nhật.",
+      "why": "にほんごの せんせい: の nối hai danh từ."
+    },
+    {
+      "q": "わたしは リン＿＿。",
+      "options": [
+        "です",
+        "さんです",
+        "ですか",
+        "も"
+      ],
+      "answer": "です",
+      "vi": "Tôi là Linh.",
+      "why": "Không gắn さん vào tên của chính mình."
+    },
+    {
+      "q": "A: わたしは かいしゃいんです。 B: わたし＿＿ かいしゃいんです。",
+      "options": [
+        "も",
+        "の",
+        "か",
+        "じゃ ありません"
+      ],
+      "answer": "も",
+      "vi": "Tôi là nhân viên công ty. — Tôi cũng là nhân viên công ty.",
+      "why": "Giống người kia → も."
+    },
+    {
+      "q": "はじめまして。どうぞ ＿＿ おねがいします。",
+      "options": [
+        "よろしく",
+        "こんにちは",
+        "さようなら",
+        "はい"
+      ],
+      "answer": "よろしく",
+      "vi": "Rất vui được gặp bạn. Mong được giúp đỡ.",
+      "why": "Câu chào khi mới gặp: どうぞ よろしく おねがいします."
+    },
+    {
+      "q": "あの かたは ＿＿ですか。",
+      "options": [
+        "どなた",
+        "なんさい",
+        "いいえ",
+        "も"
+      ],
+      "answer": "どなた",
+      "vi": "Vị kia là ai ạ? (lịch sự)",
+      "why": "どなた là cách hỏi \"ai\" lịch sự."
+    },
+    {
+      "q": "リンさんは にほんじん＿＿ ありません。",
+      "options": [
+        "では",
+        "です",
+        "の",
+        "も"
+      ],
+      "answer": "では",
+      "vi": "Linh không phải là người Nhật. (văn viết)",
+      "why": "では ありません = じゃ ありません, trang trọng hơn."
+    },
+    {
+      "q": "ミラーさんは アメリカ＿＿ きました。",
+      "options": [
+        "から",
+        "の",
+        "も",
+        "は"
+      ],
+      "answer": "から",
+      "vi": "Anh Miller đến từ Mỹ.",
+      "why": "から = từ: アメリカから きました."
+    },
+    {
+      "q": "わたしは ベトナム＿＿です。",
+      "options": [
+        "じん",
+        "から",
+        "さん",
+        "の"
+      ],
+      "answer": "じん",
+      "vi": "Tôi là người Việt Nam.",
+      "why": "Tên nước + じん = người nước đó."
+    },
+    {
+      "q": "サントスさん＿＿ にほんじんじゃ ありません。",
+      "options": [
+        "も",
+        "の",
+        "から",
+        "か"
+      ],
+      "answer": "も",
+      "vi": "Anh Santos cũng không phải là người Nhật.",
+      "why": "も dùng được cả với câu phủ định: cũng không phải."
+    },
+    {
+      "q": "A: ミラーさんも にほんじんですか。 B: いいえ、ミラーさん＿＿ にほんじんじゃ ありません。",
+      "options": [
+        "は",
+        "も",
+        "の",
+        "から"
+      ],
+      "answer": "は",
+      "vi": "Anh Miller cũng là người Nhật à? — Không, anh Miller không phải người Nhật.",
+      "why": "Trả lời いいえ thì đổi も về は."
+    },
+    {
+      "q": "＿＿ですか。 …ななじゅっさいです。",
+      "options": [
+        "おいくつ",
+        "だれ",
+        "どなた",
+        "いいえ"
+      ],
+      "answer": "おいくつ",
+      "vi": "Bác bao nhiêu tuổi ạ? — 70 tuổi.",
+      "why": "おいくつ là cách hỏi tuổi lịch sự (dùng với người lớn tuổi)."
+    },
+    {
+      "q": "わたしは じゅうご＿＿です。",
+      "options": [
+        "さい",
+        "じん",
+        "さん",
+        "から"
+      ],
+      "answer": "さい",
+      "vi": "Tôi 15 tuổi.",
+      "why": "Số + さい = tuổi."
+    }
+  ],
+  "order": [
+    {
+      "vi": "Tôi là người Việt Nam.",
+      "words": [
+        "わたし",
+        "は",
+        "ベトナムじん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Anh Yamada là giáo viên.",
+      "words": [
+        "やまださん",
+        "は",
+        "せんせい",
+        "です"
+      ]
+    },
+    {
+      "vi": "Tôi không phải là bác sĩ.",
+      "words": [
+        "わたし",
+        "は",
+        "いしゃ",
+        "じゃ ありません"
+      ]
+    },
+    {
+      "vi": "Anh Miller có phải là người Mỹ không?",
+      "words": [
+        "ミラーさん",
+        "は",
+        "アメリカじん",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Linh cũng là học sinh.",
+      "words": [
+        "リンさん",
+        "も",
+        "がくせい",
+        "です"
+      ]
+    },
+    {
+      "vi": "Tên tôi là Linh.",
+      "words": [
+        "わたし",
+        "の",
+        "なまえ",
+        "は",
+        "リン",
+        "です"
+      ]
+    },
+    {
+      "vi": "Anh Yamada là giáo viên tiếng Nhật.",
+      "words": [
+        "やまださん",
+        "は",
+        "にほんご",
+        "の",
+        "せんせい",
+        "です"
+      ]
+    },
+    {
+      "vi": "Người kia là ai?",
+      "words": [
+        "あの",
+        "ひと",
+        "は",
+        "だれ",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Tôi là sinh viên trường đại học Sakura.",
+      "words": [
+        "わたし",
+        "は",
+        "さくらだいがく",
+        "の",
+        "がくせい",
+        "です"
+      ]
+    },
+    {
+      "vi": "Không, (tôi) không phải người Hàn Quốc.",
+      "words": [
+        "いいえ、",
+        "かんこくじん",
+        "じゃ ありません"
+      ]
+    },
+    {
+      "vi": "Anh Yamada bao nhiêu tuổi ạ?",
+      "words": [
+        "やまださん",
+        "は",
+        "おいくつ",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Tôi cũng là nhân viên ngân hàng.",
+      "words": [
+        "わたし",
+        "も",
+        "ぎんこういん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Chị Maria đến từ Pháp.",
+      "words": [
+        "マリアさん",
+        "は",
+        "フランス",
+        "から",
+        "きました"
+      ]
+    },
+    {
+      "vi": "Chị Sato cũng là người Nhật.",
+      "words": [
+        "さとうさん",
+        "も",
+        "にほんじん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Anh Santos cũng không phải là người Nhật.",
+      "words": [
+        "サントスさん",
+        "も",
+        "にほんじん",
+        "じゃ ありません"
+      ]
+    },
+    {
+      "vi": "Tôi đến từ Việt Nam.",
+      "words": [
+        "わたし",
+        "は",
+        "ベトナム",
+        "から",
+        "きました"
+      ]
+    }
+  ],
+  "corrections": [],
+  "selfIntro": {
+    "countries": [
+      {
+        "jp": "ベトナム",
+        "romaji": "Betonamu",
+        "vi": "Việt Nam"
+      },
+      {
+        "jp": "にほん",
+        "romaji": "Nihon",
+        "vi": "Nhật Bản"
+      },
+      {
+        "jp": "かんこく",
+        "romaji": "Kankoku",
+        "vi": "Hàn Quốc"
+      },
+      {
+        "jp": "ちゅうごく",
+        "romaji": "Chūgoku",
+        "vi": "Trung Quốc"
+      },
+      {
+        "jp": "タイ",
+        "romaji": "Tai",
+        "vi": "Thái Lan"
+      },
+      {
+        "jp": "インドネシア",
+        "romaji": "Indoneshia",
+        "vi": "Indonesia"
+      },
+      {
+        "jp": "アメリカ",
+        "romaji": "Amerika",
+        "vi": "Mỹ"
+      },
+      {
+        "jp": "イギリス",
+        "romaji": "Igirisu",
+        "vi": "Anh"
+      },
+      {
+        "jp": "フランス",
+        "romaji": "Furansu",
+        "vi": "Pháp"
+      },
+      {
+        "jp": "ドイツ",
+        "romaji": "Doitsu",
+        "vi": "Đức"
+      },
+      {
+        "jp": "イタリア",
+        "romaji": "Itaria",
+        "vi": "Ý"
+      },
+      {
+        "jp": "スペイン",
+        "romaji": "Supein",
+        "vi": "Tây Ban Nha"
+      },
+      {
+        "jp": "スイス",
+        "romaji": "Suisu",
+        "vi": "Thụy Sỹ"
+      },
+      {
+        "jp": "オーストラリア",
+        "romaji": "Ōsutoraria",
+        "vi": "Úc"
+      },
+      {
+        "jp": "ブラジル",
+        "romaji": "Burajiru",
+        "vi": "Braxin"
+      },
+      {
+        "jp": "インド",
+        "romaji": "Indo",
+        "vi": "Ấn Độ"
+      },
+      {
+        "jp": "カナダ",
+        "romaji": "Kanada",
+        "vi": "Canada"
+      }
+    ],
+    "jobs": [
+      {
+        "jp": "がくせい",
+        "romaji": "gakusei",
+        "vi": "học sinh / sinh viên"
+      },
+      {
+        "jp": "かいしゃいん",
+        "romaji": "kaishain",
+        "vi": "nhân viên công ty"
+      },
+      {
+        "jp": "せんせい",
+        "romaji": "sensei",
+        "vi": "giáo viên"
+      },
+      {
+        "jp": "いしゃ",
+        "romaji": "isha",
+        "vi": "bác sĩ"
+      },
+      {
+        "jp": "ぎんこういん",
+        "romaji": "ginkōin",
+        "vi": "nhân viên ngân hàng"
+      }
+    ]
+  }
+}

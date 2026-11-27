@@ -1,0 +1,205 @@
+{
+  "hira": {
+    "tips": [
+      {
+        "chars": [
+          "さ",
+          "ち"
+        ],
+        "html": "Hai chữ như soi gương. <b>さ</b>: phần dưới là nét cong ngắn mở sang phải. <b>ち</b>: phần dưới phình tròn sang phải, giống số 5."
+      },
+      {
+        "chars": [
+          "き",
+          "さ"
+        ],
+        "html": "<b>き</b> có <b>hai</b> nét ngang, <b>さ</b> chỉ có <b>một</b>."
+      },
+      {
+        "chars": [
+          "ぬ",
+          "め"
+        ],
+        "html": "<b>ぬ</b> có vòng xoắn nhỏ ở cuối nét; <b>め</b> thì không."
+      },
+      {
+        "chars": [
+          "ね",
+          "れ",
+          "わ"
+        ],
+        "html": "Cả ba có chung nét dọc bên trái. <b>ね</b>: cuối nét có vòng xoắn. <b>れ</b>: cuối hất lên như cái đuôi. <b>わ</b>: cuối cong tròn vào trong."
+      },
+      {
+        "chars": [
+          "る",
+          "ろ"
+        ],
+        "html": "<b>る</b> có vòng tròn nhỏ ở cuối; <b>ろ</b> thì không."
+      },
+      {
+        "chars": [
+          "は",
+          "ほ"
+        ],
+        "html": "<b>は</b>: một nét ngang. <b>ほ</b>: hai nét ngang và đầu nét dọc bên phải được \"đậy nắp\"."
+      },
+      {
+        "chars": [
+          "い",
+          "り"
+        ],
+        "html": "<b>い</b>: hai nét gần bằng nhau, nét phải ngắn hơn. <b>り</b>: nét phải dài, kéo xuống và cong."
+      },
+      {
+        "chars": [
+          "こ",
+          "に"
+        ],
+        "html": "<b>に</b> là <b>こ</b> thêm một nét dọc bên trái."
+      },
+      {
+        "chars": [
+          "あ",
+          "お"
+        ],
+        "html": "<b>あ</b> có nét dọc cắt qua nét ngang và vòng cong. <b>お</b> không có nét chéo cắt, nhưng có chấm nhỏ phía trên bên phải."
+      },
+      {
+        "chars": [
+          "し",
+          "つ"
+        ],
+        "html": "<b>し</b>: nét dọc đi xuống rồi móc sang phải. <b>つ</b>: nét ngang đi sang phải rồi cong xuống ôm về bên trái."
+      },
+      {
+        "chars": [
+          "ま",
+          "も"
+        ],
+        "html": "<b>ま</b>: nét dọc xuyên qua hai nét ngang, có vòng ở dưới. <b>も</b>: nét móc cong lên, không có vòng."
+      }
+    ],
+    "rules": [
+      {
+        "sym": "っ",
+        "html": "<b>っ nhỏ</b>: ngắt nhẹ, gấp đôi phụ âm đứng sau (kk, tt, ss, tch, pp).<br><span class=\"ex\">さっか</span> = sakka (nhà văn) · <span class=\"ex\">きって</span> = kitte (tem) · <span class=\"ex\">こっせつ</span> = kossetsu (gãy xương) · <span class=\"ex\">しっぱい</span> = shippai (thất bại)"
+      },
+      {
+        "sym": "ゃゅょ",
+        "html": "<b>Âm ghép</b>: chữ cột <i>i</i> + ゃ/ゅ/ょ nhỏ thành một âm.<br><span class=\"ex\">おきゃくさん</span> (khách) · <span class=\"ex\">やきゅう</span> (bóng chày) · <span class=\"ex\">きょうしつ</span> (phòng học) · <span class=\"ex\">しゃしん</span> (ảnh) · <span class=\"ex\">しゅくだい</span> (bài tập) · <span class=\"ex\">おちゃ</span> (trà) · <span class=\"ex\">ぎゅうにゅう</span> (sữa) · <span class=\"ex\">りょこう</span> (du lịch)"
+      },
+      {
+        "sym": "ああ",
+        "html": "<b>Trường âm</b>: viết thêm nguyên âm để kéo dài.<br>• aa: <span class=\"ex\">おかあさん, おばあさん</span> · ii: <span class=\"ex\">おにいさん, おじいさん</span> · uu: <span class=\"ex\">くうき, すうがく, ゆうき</span><br>• ee (viết えい hoặc ええ): <span class=\"ex\">えいご, けいざい, せいかつ, めいし, おねえさん</span><br>• oo (viết おう hoặc おお): <span class=\"ex\">こうえん, どうぶつ, ぼうし, おおさか</span>"
+      },
+      {
+        "sym": "゛゜",
+        "html": "<b>Dấu biến âm</b>: thêm <b>゛</b> làm âm đục (か ka → が ga), thêm <b>゜</b> vào hàng は thành âm p (は ha → ぱ pa)."
+      },
+      {
+        "sym": "はへを",
+        "html": "<b>Trợ từ đọc khác</b>: は đọc <b>wa</b>, へ đọc <b>e</b>, を đọc <b>o</b>.<br><span class=\"ex\">わたしは</span> = watashi wa · <span class=\"ex\">こんにちは</span> = konnichiwa"
+      },
+      {
+        "sym": "?",
+        "html": "<b>Hiragana dùng khi nào?</b> Từ thuần Nhật, trợ từ, đuôi động từ/tính từ, và phiên âm cho Kanji (furigana). Đây là bảng chữ nên học trước."
+      }
+    ]
+  },
+  "kata": {
+    "tips": [
+      {
+        "chars": [
+          "シ",
+          "ツ"
+        ],
+        "html": "<b>シ</b>: hai nét ngắn xếp dọc bên trái, nét dài hất từ dưới lên. <b>ツ</b>: hai nét ngắn đứng cạnh nhau ở trên, nét dài kéo từ trên xuống."
+      },
+      {
+        "chars": [
+          "ソ",
+          "ン"
+        ],
+        "html": "<b>ソ</b>: nét ngắn ở trên, nét dài kéo từ trên xuống (giống ツ). <b>ン</b>: nét ngắn ở bên trái, nét dài hất từ dưới lên (giống シ)."
+      },
+      {
+        "chars": [
+          "ク",
+          "ケ",
+          "タ"
+        ],
+        "html": "<b>ク</b>: hai nét như số 7 nghiêng. <b>ケ</b>: nét ngang chìa dài sang phải. <b>タ</b>: là ク thêm một nét nhỏ ở giữa."
+      },
+      {
+        "chars": [
+          "フ",
+          "ワ",
+          "ウ"
+        ],
+        "html": "<b>フ</b>: chỉ một nét móc. <b>ワ</b>: thêm nét đứng bên trái. <b>ウ</b>: như ワ nhưng có thêm một chấm trên đầu."
+      },
+      {
+        "chars": [
+          "ス",
+          "ヌ"
+        ],
+        "html": "<b>ヌ</b> chính là <b>ス</b> có thêm một nét chéo cắt qua ở giữa."
+      },
+      {
+        "chars": [
+          "チ",
+          "テ"
+        ],
+        "html": "<b>チ</b>: nét đầu xiên, nét dọc xuyên qua nét ngang. <b>テ</b>: hai nét ngang tách riêng, nét dọc chỉ bắt đầu từ nét ngang dưới."
+      },
+      {
+        "chars": [
+          "コ",
+          "ユ"
+        ],
+        "html": "<b>ユ</b>: nét ngang dưới chìa ra quá nét đứng. <b>コ</b> thì hai góc khép gọn."
+      },
+      {
+        "chars": [
+          "ノ",
+          "メ"
+        ],
+        "html": "<b>メ</b> là <b>ノ</b> thêm một nét chéo cắt qua."
+      },
+      {
+        "chars": [
+          "マ",
+          "ム"
+        ],
+        "html": "<b>マ</b>: nét ngang ở trên, chấm chéo đi xuống. <b>ム</b>: nét gãy hình tam giác, chấm nhỏ ở bên phải."
+      }
+    ],
+    "rules": [
+      {
+        "sym": "ー",
+        "html": "<b>Trường âm</b>: gạch ngang kéo dài nguyên âm phía trước.<br><span class=\"ex\">コーヒー</span> = kōhī (cà phê) · <span class=\"ex\">オーストラリア</span> = Ōsutoraria (Úc)"
+      },
+      {
+        "sym": "ッ",
+        "html": "<b>ッ nhỏ</b>: ngắt nhẹ, gấp đôi phụ âm đứng sau.<br><span class=\"ex\">サッカー</span> = sakkā (bóng đá) · <span class=\"ex\">ベッド</span> = beddo (giường)"
+      },
+      {
+        "sym": "ャュョ",
+        "html": "<b>Âm ghép</b>: chữ cột <i>i</i> + ャ/ュ/ョ nhỏ thành một âm.<br><span class=\"ex\">キ + ャ = キャ</span> (kya) · <span class=\"ex\">メニュー</span> = menyū"
+      },
+      {
+        "sym": "ァィェォ",
+        "html": "<b>Nguyên âm nhỏ</b>: dùng để ghi âm tiếng nước ngoài.<br><span class=\"ex\">フ + ァ = ファ</span> (fa) · <span class=\"ex\">テ + ィ = ティ</span> (ti) · <span class=\"ex\">パーティー</span> = pātī"
+      },
+      {
+        "sym": "゛゜",
+        "html": "<b>Dấu biến âm</b>: thêm <b>゛</b> làm âm đục (カ ka → ガ ga), thêm <b>゜</b> vào hàng ハ thành âm p (ハ ha → パ pa)."
+      },
+      {
+        "sym": "?",
+        "html": "<b>Katakana dùng khi nào?</b> Từ mượn nước ngoài, tên nước và tên người nước ngoài, từ tượng thanh, và khi muốn nhấn mạnh. Ví dụ trong Bài 1: <span class=\"ex\">ベトナム</span>, <span class=\"ex\">アメリカじん</span>."
+      }
+    ]
+  }
+}
