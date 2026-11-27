@@ -51,6 +51,7 @@ Lưu ý: nhập sẽ **thay** toàn bộ tiến độ đang có trên máy đó.
    chuyển file sang `inbox/done/`, commit và push. Web tự cập nhật sau vài phút.
 
 File trong `inbox/` không được đưa lên GitHub (video rất nặng).
+Lần đầu chạy, Claude Code sẽ hỏi quyền cho từng lệnh (`npm run …`, `git push`): chọn *Yes, and don't ask again* để các lần sau chạy liền mạch.
 
 ## Cập nhật bài từ điện thoại (tuỳ chọn)
 
