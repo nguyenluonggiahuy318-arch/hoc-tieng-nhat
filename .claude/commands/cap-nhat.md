@@ -17,6 +17,10 @@ Kiểm tra bằng `echo "$CAP_NHAT_CI"`.
 
 ## 1. Tìm file mới và trích nội dung
 
+**File gửi kèm trong tin nhắn** (dùng Claude Code trên web / điện thoại): nếu tin nhắn có file đính kèm
+(đường dẫn dạng `/root/.claude/uploads/…`), chép **tất cả** vào `inbox/` trước, giữ nguyên tên file:
+`cp "<đường dẫn file>" inbox/`. Không bao giờ commit file trong `inbox/`.
+
 ```bash
 npm run inbox:scan
 ```

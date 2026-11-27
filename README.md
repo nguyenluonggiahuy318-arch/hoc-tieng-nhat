@@ -44,6 +44,16 @@ Lưu ý: nhập sẽ **thay** toàn bộ tiến độ đang có trên máy đó.
 
 ## Thêm bài mới
 
+Có 3 cách đưa tài liệu (video / ảnh / PDF / DOCX) lên:
+
+- **Cách 1 — gửi ngay trong Claude, không cần cài gì (dễ nhất):** mở Claude Code trên web hoặc app điện thoại
+  (claude.ai/code), chọn repo `hoc-tieng-nhat` và môi trường `hoc-tieng-nhat`, bấm 📎 đính kèm file vào tin nhắn
+  rồi gõ **`/cap-nhat`**. Video quá nặng không đính kèm được thì nén / cắt nhỏ trước, hoặc dùng cách 2.
+- **Cách 2 — trên máy tính:** làm theo các bước dưới đây.
+- **Cách 3 — tải lên GitHub:** xem mục "Cập nhật bài từ điện thoại" (cần cài một lần).
+
+Cách 2, trên máy tính:
+
 1. Bỏ video / ảnh / PDF / DOCX bài giảng vào thư mục `inbox/`.
 2. Mở Claude Code trong thư mục dự án (`claude`) và gõ **`/cap-nhat`** (hoặc `/cap-nhat 4` nếu muốn nói rõ là Bài 4).
 3. Claude sẽ: cắt khung hình video và đọc slide, đọc PDF/ảnh, xác định bài mấy (không chắc sẽ hỏi bạn), thêm từ vựng,
