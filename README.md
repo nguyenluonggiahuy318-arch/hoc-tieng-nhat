@@ -3,7 +3,7 @@
 Web học tiếng Nhật sơ cấp (Hiragana, Katakana, từ vựng, ngữ pháp, số đếm theo từng bài, giáo trình kiểu Minna no Nihongo).
 Chạy trên Safari iPhone, Chrome Android và máy tính; thêm được vào màn hình chính và dùng offline.
 
-**Link web:** _(sẽ có sau lần deploy đầu tiên — chạy `npm run stats` để xem)_
+**Link web:** https://nguyenluonggiahuy318-arch.github.io/hoc-tieng-nhat/
 
 ## Dùng trên điện thoại
 
