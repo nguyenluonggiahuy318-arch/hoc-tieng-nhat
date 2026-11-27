@@ -100,4 +100,36 @@ describe('đơn vị đếm trong content/so-dem.json', () => {
     for (const c of soDem.counters) for (const n of c.table) expect(readCounter(n, c).length).toBeGreaterThan(0);
   });
   it('đáp án nhiễu cho tầng 3 là さんかい', () => expect(trapReading(3, C('tang'))).toBe('さんかい'));
+
+  // Bài 4: giờ (じ) và phút (ふん / ぷん)
+  it.each([
+    ['gio', 1, 'いちじ'],
+    ['gio', 4, 'よじ'],
+    ['gio', 7, 'しちじ'],
+    ['gio', 9, 'くじ'],
+    ['gio', 10, 'じゅうじ'],
+    ['gio', 14, 'じゅうよじ'],
+    ['gio', 19, 'じゅうくじ'],
+    ['phut', 1, 'いっぷん'],
+    ['phut', 2, 'にふん'],
+    ['phut', 3, 'さんぷん'],
+    ['phut', 4, 'よんぷん'],
+    ['phut', 5, 'ごふん'],
+    ['phut', 6, 'ろっぷん'],
+    ['phut', 7, 'ななふん'],
+    ['phut', 8, 'はっぷん'],
+    ['phut', 9, 'きゅうふん'],
+    ['phut', 10, 'じゅっぷん'],
+    ['phut', 11, 'じゅういっぷん'],
+    ['phut', 15, 'じゅうごふん'],
+    ['phut', 20, 'にじゅっぷん'],
+    ['phut', 30, 'さんじゅっぷん'],
+    ['phut', 45, 'よんじゅうごふん'],
+  ] as const)('%s %i → %s', (id, n, r) => expect(readCounter(n, C(id))).toBe(r));
+  it('giờ / phút biến âm được tô đỏ', () => {
+    expect([4, 7, 9].every((n) => isIrregularCounter(n, C('gio')))).toBe(true);
+    expect([1, 2, 3, 5, 10].some((n) => isIrregularCounter(n, C('gio')))).toBe(false);
+    expect([1, 3, 4, 6, 8, 10, 20].every((n) => isIrregularCounter(n, C('phut')))).toBe(true);
+    expect([2, 5, 7, 9, 15].some((n) => isIrregularCounter(n, C('phut')))).toBe(false);
+  });
 });

@@ -1,9 +1,21 @@
 {
   "tableRules": [
-    { "sym": "4 7 9", "html": "Số 4, 7, 9 có hai cách đọc. Khi đếm số thường dùng <b>よん, なな, きゅう</b>. Cách đọc し, しち, く hay gặp khi nói giờ, tháng (sẽ học ở bài sau)." },
-    { "sym": "11", "html": "Ghép từ trái sang phải giống tiếng Việt: <span class=\"ex\">11 = じゅう いち</span>, <span class=\"ex\">25 = にじゅう ご</span>, <span class=\"ex\">99 = きゅうじゅう きゅう</span>." },
-    { "sym": "368", "html": "Số lớn: đọc từng hàng rồi nối lại: <span class=\"ex\">368 = さんびゃく ろくじゅう はち</span>. Số 100 và 1000 chỉ đọc ひゃく, せん (không thêm いち)." },
-    { "sym": "万", "html": "Tiếng Nhật đếm theo nhóm <b>4 chữ số</b> (まん = 10.000), không phải 3 như tiếng Việt: <span class=\"ex\">100.000 = じゅうまん</span> (10 vạn)." }
+    {
+      "sym": "4 7 9",
+      "html": "Số 4, 7, 9 có hai cách đọc. Khi đếm số thường dùng <b>よん, なな, きゅう</b>. Cách đọc し, しち, く hay gặp khi nói giờ, tháng (sẽ học ở bài sau)."
+    },
+    {
+      "sym": "11",
+      "html": "Ghép từ trái sang phải giống tiếng Việt: <span class=\"ex\">11 = じゅう いち</span>, <span class=\"ex\">25 = にじゅう ご</span>, <span class=\"ex\">99 = きゅうじゅう きゅう</span>."
+    },
+    {
+      "sym": "368",
+      "html": "Số lớn: đọc từng hàng rồi nối lại: <span class=\"ex\">368 = さんびゃく ろくじゅう はち</span>. Số 100 và 1000 chỉ đọc ひゃく, せん (không thêm いち)."
+    },
+    {
+      "sym": "万",
+      "html": "Tiếng Nhật đếm theo nhóm <b>4 chữ số</b> (まん = 10.000), không phải 3 như tiếng Việt: <span class=\"ex\">100.000 = じゅうまん</span> (10 vạn)."
+    }
   ],
   "counters": [
     {
@@ -13,13 +25,73 @@
       "suffix": "さい",
       "label": "{n} tuổi",
       "note": "số + さい · hỏi: なんさい / おいくつ",
-      "digit": { "1": "いっさい", "8": "はっさい" },
+      "digit": {
+        "1": "いっさい",
+        "8": "はっさい"
+      },
       "ten": "じゅっさい",
-      "special": { "20": "はたち" },
-      "alt": { "10": "じっさい", "20": "にじゅっさい" },
-      "range": [1, 150],
-      "table": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 30, 40, 50, 60, 70, 80, 90, 100],
-      "quiz": { "label": "Tuổi", "pool": [1, 8, 10, 11, 18, 20, 30, 70], "random": [[2, 99, 1]], "mixWeight": 2 }
+      "special": {
+        "20": "はたち"
+      },
+      "alt": {
+        "10": "じっさい",
+        "20": "にじゅっさい"
+      },
+      "range": [
+        1,
+        150
+      ],
+      "table": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "quiz": {
+        "label": "Tuổi",
+        "pool": [
+          1,
+          8,
+          10,
+          11,
+          18,
+          20,
+          30,
+          70
+        ],
+        "random": [
+          [
+            2,
+            99,
+            1
+          ]
+        ],
+        "mixWeight": 2
+      }
     },
     {
       "id": "tang",
@@ -28,15 +100,58 @@
       "suffix": "かい",
       "label": "Tầng {n}",
       "note": "số + かい · hỏi: なんがい",
-      "digit": { "1": "いっかい", "3": "さんがい", "6": "ろっかい", "8": "はっかい" },
+      "digit": {
+        "1": "いっかい",
+        "3": "さんがい",
+        "6": "ろっかい",
+        "8": "はっかい"
+      },
       "ten": "じゅっかい",
-      "range": [1, 99],
-      "table": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-      "extra": [
-        { "label": "Tầng hầm", "jp": "ちか" },
-        { "label": "Tầng mấy?", "jp": "なんがい", "irregular": true }
+      "range": [
+        1,
+        99
       ],
-      "quiz": { "label": "Tầng", "pool": [1, 3, 6, 8, 10], "random": [[1, 10, 1]], "mixWeight": 1 }
+      "table": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "extra": [
+        {
+          "label": "Tầng hầm",
+          "jp": "ちか"
+        },
+        {
+          "label": "Tầng mấy?",
+          "jp": "なんがい",
+          "irregular": true
+        }
+      ],
+      "quiz": {
+        "label": "Tầng",
+        "pool": [
+          1,
+          3,
+          6,
+          8,
+          10
+        ],
+        "random": [
+          [
+            1,
+            10,
+            1
+          ]
+        ],
+        "mixWeight": 1
+      }
     },
     {
       "id": "quan",
@@ -45,10 +160,30 @@
       "suffix": "く",
       "label": "Quận {n}",
       "note": "số + く",
-      "digit": { "1": "いっく", "6": "ろっく", "8": "はっく" },
+      "digit": {
+        "1": "いっく",
+        "6": "ろっく",
+        "8": "はっく"
+      },
       "ten": "じゅっく",
-      "range": [1, 99],
-      "table": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "range": [
+        1,
+        99
+      ],
+      "table": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     {
       "id": "gia",
@@ -57,11 +192,182 @@
       "suffix": "えん",
       "label": "¥{n:en}",
       "note": "số + えん · hỏi: いくら",
-      "digit": { "4": "よえん" },
+      "digit": {
+        "4": "よえん"
+      },
       "spaced": true,
-      "range": [1, 99999999],
-      "table": [3800, 18000, 9500, 100],
-      "quiz": { "label": "Giá (えん)", "pool": [3800, 18000, 9500, 1800, 6300, 8600, 300, 600, 800, 3000, 8000, 13800], "random": [[1, 99, 100], [1, 30, 1000], [1, 9, 10000]], "mixWeight": 1 }
+      "range": [
+        1,
+        99999999
+      ],
+      "table": [
+        3800,
+        18000,
+        9500,
+        100
+      ],
+      "quiz": {
+        "label": "Giá (えん)",
+        "pool": [
+          3800,
+          18000,
+          9500,
+          1800,
+          6300,
+          8600,
+          300,
+          600,
+          800,
+          3000,
+          8000,
+          13800
+        ],
+        "random": [
+          [
+            1,
+            99,
+            100
+          ],
+          [
+            1,
+            30,
+            1000
+          ],
+          [
+            1,
+            9,
+            10000
+          ]
+        ],
+        "mixWeight": 1
+      }
+    },
+    {
+      "id": "gio",
+      "name": "Giờ",
+      "lesson": 4,
+      "suffix": "じ",
+      "label": "{n} giờ",
+      "note": "số + じ · hỏi: なんじ",
+      "digit": {
+        "4": "よじ",
+        "7": "しちじ",
+        "9": "くじ"
+      },
+      "range": [
+        1,
+        24
+      ],
+      "table": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "extra": [
+        {
+          "label": "Rưỡi",
+          "jp": "はん"
+        },
+        {
+          "label": "Mấy giờ?",
+          "jp": "なんじ"
+        }
+      ],
+      "quiz": {
+        "label": "Giờ",
+        "pool": [
+          4,
+          7,
+          9,
+          1,
+          10,
+          12
+        ],
+        "random": [
+          [
+            1,
+            12,
+            1
+          ]
+        ],
+        "mixWeight": 1
+      }
+    },
+    {
+      "id": "phut",
+      "name": "Phút",
+      "lesson": 4,
+      "suffix": "ふん",
+      "label": "{n} phút",
+      "note": "số + ふん / ぷん · hỏi: なんぷん",
+      "digit": {
+        "1": "いっぷん",
+        "3": "さんぷん",
+        "4": "よんぷん",
+        "6": "ろっぷん",
+        "8": "はっぷん"
+      },
+      "ten": "じゅっぷん",
+      "alt": {
+        "10": "じっぷん"
+      },
+      "range": [
+        1,
+        59
+      ],
+      "table": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        15,
+        20,
+        30,
+        45
+      ],
+      "extra": [
+        {
+          "label": "Mấy phút?",
+          "jp": "なんぷん",
+          "irregular": true
+        }
+      ],
+      "quiz": {
+        "label": "Phút",
+        "pool": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          10,
+          20,
+          30
+        ],
+        "random": [
+          [
+            1,
+            59,
+            1
+          ]
+        ],
+        "mixWeight": 1
+      }
     }
   ],
   "pages": [
@@ -69,22 +375,76 @@
       "id": "tuoi",
       "title": "Tuổi",
       "intro": "Tuổi = số + <b>さい</b>. Bấm vào ô để nghe. Ô đỏ là các tuổi đọc biến âm.",
-      "counters": ["tuoi"],
+      "counters": [
+        "tuoi"
+      ],
       "rules": [
-        { "sym": "1 8", "html": "Tuổi tận cùng là 1 hoặc 8 bị biến âm: <span class=\"ex\">いっさい</span> (1), <span class=\"ex\">はっさい</span> (8), <span class=\"ex\">じゅういっさい</span> (11), <span class=\"ex\">じゅうはっさい</span> (18)." },
-        { "sym": "10", "html": "Tròn chục đọc là <b>じゅっさい</b>: <span class=\"ex\">じゅっさい</span> (10), <span class=\"ex\">さんじゅっさい</span> (30), <span class=\"ex\">ななじゅっさい</span> (70)." },
-        { "sym": "20", "html": "20 tuổi có cách đọc riêng: <span class=\"ex\">はたち</span> — tuổi trưởng thành ở Nhật." },
-        { "sym": "?", "html": "<b>Hỏi tuổi</b>: なんさいですか。 Lịch sự hơn: おいくつですか。<br><span class=\"ex\">Q: なんさいですか。 A: じゅうごさいです。</span> (15 tuổi)<br><span class=\"ex\">Q: おいくつですか。 A: ななじゅっさいです。</span> (70 tuổi)" }
+        {
+          "sym": "1 8",
+          "html": "Tuổi tận cùng là 1 hoặc 8 bị biến âm: <span class=\"ex\">いっさい</span> (1), <span class=\"ex\">はっさい</span> (8), <span class=\"ex\">じゅういっさい</span> (11), <span class=\"ex\">じゅうはっさい</span> (18)."
+        },
+        {
+          "sym": "10",
+          "html": "Tròn chục đọc là <b>じゅっさい</b>: <span class=\"ex\">じゅっさい</span> (10), <span class=\"ex\">さんじゅっさい</span> (30), <span class=\"ex\">ななじゅっさい</span> (70)."
+        },
+        {
+          "sym": "20",
+          "html": "20 tuổi có cách đọc riêng: <span class=\"ex\">はたち</span> — tuổi trưởng thành ở Nhật."
+        },
+        {
+          "sym": "?",
+          "html": "<b>Hỏi tuổi</b>: なんさいですか。 Lịch sự hơn: おいくつですか。<br><span class=\"ex\">Q: なんさいですか。 A: じゅうごさいです。</span> (15 tuổi)<br><span class=\"ex\">Q: おいくつですか。 A: ななじゅっさいです。</span> (70 tuổi)"
+        }
       ]
     },
     {
       "id": "tang-quan",
       "title": "Tầng & quận",
-      "counters": ["tang", "quan", "gia"],
+      "counters": [
+        "tang",
+        "quan",
+        "gia"
+      ],
       "rules": [
-        { "sym": "1 6 8 10", "html": "Tầng và quận biến âm ở số 1, 6, 8, 10: <span class=\"ex\">いっかい, ろっかい, はっかい, じゅっかい</span> · <span class=\"ex\">いっく, ろっく, はっく, じゅっく</span>." },
-        { "sym": "3", "html": "Tầng 3 đọc <span class=\"ex\">さんがい</span>, và hỏi tầng mấy là <span class=\"ex\">なんがい</span> (không phải なんかい)." },
-        { "sym": "?", "html": "<span class=\"ex\">Q: ワインうりばは なんがいですか。 A: ちかです。</span><br><span class=\"ex\">Q: この くつは いくらですか。 A: きゅうせん ごひゃく えんです。</span>" }
+        {
+          "sym": "1 6 8 10",
+          "html": "Tầng và quận biến âm ở số 1, 6, 8, 10: <span class=\"ex\">いっかい, ろっかい, はっかい, じゅっかい</span> · <span class=\"ex\">いっく, ろっく, はっく, じゅっく</span>."
+        },
+        {
+          "sym": "3",
+          "html": "Tầng 3 đọc <span class=\"ex\">さんがい</span>, và hỏi tầng mấy là <span class=\"ex\">なんがい</span> (không phải なんかい)."
+        },
+        {
+          "sym": "?",
+          "html": "<span class=\"ex\">Q: ワインうりばは なんがいですか。 A: ちかです。</span><br><span class=\"ex\">Q: この くつは いくらですか。 A: きゅうせん ごひゃく えんです。</span>"
+        }
+      ]
+    },
+    {
+      "id": "gio-phut",
+      "title": "Giờ & phút",
+      "intro": "Giờ = số + <b>じ</b>, phút = số + <b>ふん / ぷん</b>. Bấm vào ô để nghe. Ô đỏ là cách đọc biến âm.",
+      "counters": [
+        "gio",
+        "phut"
+      ],
+      "rules": [
+        {
+          "sym": "4 7 9",
+          "html": "Giờ: 4じ = <span class=\"ex\">よじ</span>, 7じ = <span class=\"ex\">しちじ</span>, 9じ = <span class=\"ex\">くじ</span> (không đọc よんじ, ななじ, きゅうじ)."
+        },
+        {
+          "sym": "ぷん",
+          "html": "Phút biến âm ở 1, 3, 4, 6, 8, 10: <span class=\"ex\">いっぷん, さんぷん, よんぷん, ろっぷん, はっぷん, じゅっぷん</span>. Các số khác đọc ふん: にふん, ごふん, ななふん, きゅうふん."
+        },
+        {
+          "sym": "はん",
+          "html": "<b>はん</b> = rưỡi (30 phút): <span class=\"ex\">くじはん</span> = 9 giờ rưỡi."
+        },
+        {
+          "sym": "?",
+          "html": "<span class=\"ex\">Q: いま なんじですか。 A: よじ ごふんです。</span>"
+        }
       ]
     }
   ]

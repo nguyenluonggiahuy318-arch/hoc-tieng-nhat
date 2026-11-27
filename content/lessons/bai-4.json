@@ -1,0 +1,778 @@
+{
+  "lesson": 4,
+  "title": "だい４か",
+  "sources": [
+    "Bai4_bai-giang_MAU.mp4",
+    "NGU_PHAP_BAI_4_mau.pdf"
+  ],
+  "vocab": [
+    {
+      "group": "Thời gian",
+      "items": [
+        {
+          "jp": "いま",
+          "romaji": "ima",
+          "phienam": "Ima",
+          "vi": "Bây giờ"
+        },
+        {
+          "jp": "～じ",
+          "romaji": "~ji",
+          "phienam": "Ji",
+          "vi": "~ giờ"
+        },
+        {
+          "jp": "～ふん（～ぷん）",
+          "romaji": "~fun (~pun)",
+          "phienam": "Fưn (Pưn)",
+          "vi": "~ phút"
+        },
+        {
+          "jp": "はん",
+          "romaji": "han",
+          "phienam": "Han",
+          "vi": "Rưỡi, một nửa"
+        },
+        {
+          "jp": "なんじ",
+          "romaji": "nanji",
+          "phienam": "Nanji",
+          "vi": "Mấy giờ"
+        },
+        {
+          "jp": "なんぷん",
+          "romaji": "nanpun",
+          "phienam": "Nampưn",
+          "vi": "Mấy phút"
+        },
+        {
+          "jp": "ごぜん",
+          "romaji": "gozen",
+          "phienam": "Gôzen",
+          "vi": "Sáng (AM)"
+        },
+        {
+          "jp": "ごご",
+          "romaji": "gogo",
+          "phienam": "Gôgô",
+          "vi": "Chiều (PM)"
+        }
+      ]
+    },
+    {
+      "group": "Buổi, ngày",
+      "items": [
+        {
+          "jp": "あさ",
+          "romaji": "asa",
+          "phienam": "Asa",
+          "vi": "Buổi sáng"
+        },
+        {
+          "jp": "ひる",
+          "romaji": "hiru",
+          "phienam": "Hirư",
+          "vi": "Buổi trưa"
+        },
+        {
+          "jp": "ばん（よる）",
+          "romaji": "ban (yoru)",
+          "phienam": "Ban (Yôrư)",
+          "vi": "Buổi tối"
+        },
+        {
+          "jp": "きのう",
+          "romaji": "kinō",
+          "phienam": "Kinôô",
+          "vi": "Hôm qua"
+        },
+        {
+          "jp": "きょう",
+          "romaji": "kyō",
+          "phienam": "Kyôô",
+          "vi": "Hôm nay"
+        },
+        {
+          "jp": "あした",
+          "romaji": "ashita",
+          "phienam": "Ashita",
+          "vi": "Ngày mai"
+        },
+        {
+          "jp": "まいあさ",
+          "romaji": "maiasa",
+          "phienam": "Maiasa",
+          "vi": "Mỗi sáng"
+        },
+        {
+          "jp": "まいばん",
+          "romaji": "maiban",
+          "phienam": "Maiban",
+          "vi": "Mỗi tối"
+        },
+        {
+          "jp": "まいにち",
+          "romaji": "mainichi",
+          "phienam": "Mainichi",
+          "vi": "Mỗi ngày"
+        }
+      ]
+    },
+    {
+      "group": "Động từ",
+      "items": [
+        {
+          "jp": "おきます",
+          "romaji": "okimasu",
+          "phienam": "Ôkimasư",
+          "vi": "Thức dậy"
+        },
+        {
+          "jp": "ねます",
+          "romaji": "nemasu",
+          "phienam": "Nêmasư",
+          "vi": "Ngủ"
+        },
+        {
+          "jp": "はたらきます",
+          "romaji": "hatarakimasu",
+          "phienam": "Hatarakimasư",
+          "vi": "Làm việc"
+        },
+        {
+          "jp": "やすみます",
+          "romaji": "yasumimasu",
+          "phienam": "Yasưmimasư",
+          "vi": "Nghỉ"
+        },
+        {
+          "jp": "べんきょうします",
+          "romaji": "benkyōshimasu",
+          "phienam": "Benkyôôshimasư",
+          "vi": "Học"
+        },
+        {
+          "jp": "おわります",
+          "romaji": "owarimasu",
+          "phienam": "Ôwarimasư",
+          "vi": "Kết thúc"
+        }
+      ]
+    },
+    {
+      "group": "Nơi chốn, việc",
+      "items": [
+        {
+          "jp": "デパート",
+          "romaji": "depāto",
+          "phienam": "Đêpaatô",
+          "vi": "Cửa hàng bách hoá"
+        },
+        {
+          "jp": "ゆうびんきょく",
+          "romaji": "yūbinkyoku",
+          "phienam": "Yưưbinkyôkư",
+          "vi": "Bưu điện"
+        },
+        {
+          "jp": "としょかん",
+          "romaji": "toshokan",
+          "phienam": "Tôshôkan",
+          "vi": "Thư viện"
+        },
+        {
+          "jp": "びじゅつかん",
+          "romaji": "bijutsukan",
+          "phienam": "Bijưtsưkan",
+          "vi": "Bảo tàng mỹ thuật"
+        },
+        {
+          "jp": "やすみ",
+          "romaji": "yasumi",
+          "phienam": "Yasưmi",
+          "vi": "Ngày nghỉ"
+        },
+        {
+          "jp": "ひるやすみ",
+          "romaji": "hiruyasumi",
+          "phienam": "Hirưyasưmi",
+          "vi": "Nghỉ trưa"
+        },
+        {
+          "jp": "しけん",
+          "romaji": "shiken",
+          "phienam": "Shiken",
+          "vi": "Kỳ thi"
+        },
+        {
+          "jp": "かいぎ",
+          "romaji": "kaigi",
+          "phienam": "Kaigi",
+          "vi": "Cuộc họp"
+        }
+      ]
+    },
+    {
+      "group": "Thứ trong tuần",
+      "items": [
+        {
+          "jp": "げつようび",
+          "romaji": "getsuyōbi",
+          "phienam": "Ghêtsưyôôbi",
+          "vi": "Thứ hai"
+        },
+        {
+          "jp": "かようび",
+          "romaji": "kayōbi",
+          "phienam": "Kayôôbi",
+          "vi": "Thứ ba"
+        },
+        {
+          "jp": "すいようび",
+          "romaji": "suiyōbi",
+          "phienam": "Sưiyôôbi",
+          "vi": "Thứ tư"
+        },
+        {
+          "jp": "もくようび",
+          "romaji": "mokuyōbi",
+          "phienam": "Môkưyôôbi",
+          "vi": "Thứ năm"
+        },
+        {
+          "jp": "きんようび",
+          "romaji": "kin'yōbi",
+          "phienam": "Kinyôôbi",
+          "vi": "Thứ sáu"
+        },
+        {
+          "jp": "どようび",
+          "romaji": "doyōbi",
+          "phienam": "Đôyôôbi",
+          "vi": "Thứ bảy"
+        },
+        {
+          "jp": "にちようび",
+          "romaji": "nichiyōbi",
+          "phienam": "Nichiyôôbi",
+          "vi": "Chủ nhật"
+        },
+        {
+          "jp": "なんようび",
+          "romaji": "nan'yōbi",
+          "phienam": "Nanyôôbi",
+          "vi": "Thứ mấy"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "いま ～じ ～ふん です",
+      "meaning": "Bây giờ là … giờ … phút",
+      "explain": "Nói giờ: số + <b>じ</b> (giờ), số + <b>ふん / ぷん</b> (phút); <b>はん</b> = rưỡi. Hỏi giờ bằng <b>いま なんじですか</b>, hỏi phút bằng <b>なんぷん</b>.",
+      "note": "4じ = <b>よじ</b>, 7じ = <b>しちじ</b>, 9じ = <b>くじ</b>. Phút biến âm: いっぷん, さんぷん, よんぷん, ろっぷん, はっぷん, じゅっぷん. Bảng đầy đủ ở mục <a href=\"#so-dem\">Số đếm</a>.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "いま よじ ごふんです。",
+          "romaji": "Ima yoji gofun desu.",
+          "vi": "Bây giờ là 4 giờ 5 phút."
+        },
+        {
+          "jp": "いま なんじですか。",
+          "romaji": "Ima nanji desu ka.",
+          "vi": "Bây giờ là mấy giờ?"
+        },
+        {
+          "jp": "……くじはんです。",
+          "romaji": "Kuji han desu.",
+          "vi": "9 giờ rưỡi."
+        }
+      ]
+    },
+    {
+      "pattern": "V ます / V ません / V ました / V ませんでした",
+      "meaning": "Động từ lịch sự: hiện tại – phủ định – quá khứ",
+      "explain": "Đuôi <b>ます</b> dùng cho hiện tại, thói quen và tương lai; đổi đuôi để phủ định hoặc nói về quá khứ.<table class=\"ktable\"><tr><th></th><th>Khẳng định</th><th>Phủ định</th></tr><tr><td>Hiện tại / tương lai</td><td>おきます</td><td>おきません</td></tr><tr><td>Quá khứ</td><td>おきました</td><td>おきませんでした</td></tr></table>",
+      "note": "Thời của câu nằm ở đuôi động từ, không nằm ở chủ ngữ: きのう … ました, あした … ます.",
+      "source": "video",
+      "examples": [
+        {
+          "jp": "あした べんきょうします。",
+          "romaji": "Ashita benkyō shimasu.",
+          "vi": "Ngày mai tôi học."
+        },
+        {
+          "jp": "きのう べんきょうしませんでした。",
+          "romaji": "Kinō benkyō shimasen deshita.",
+          "vi": "Hôm qua tôi đã không học."
+        }
+      ]
+    },
+    {
+      "pattern": "N（thời gian）に V",
+      "meaning": "Làm V vào lúc N",
+      "explain": "Thời gian có <b>số</b> (giờ, thứ, ngày…) thì thêm <b>に</b> phía sau. <b>Không</b> dùng に với いま, きょう, あした, きのう, まいあさ, まいにち…",
+      "note": "✗ あしたに べんきょうします → ○ あした べんきょうします.",
+      "source": [
+        "video",
+        "pdf"
+      ],
+      "examples": [
+        {
+          "jp": "わたしは まいあさ ろくじに おきます。",
+          "romaji": "Watashi wa maiasa rokuji ni okimasu.",
+          "vi": "Mỗi sáng tôi dậy lúc 6 giờ."
+        },
+        {
+          "jp": "にちようびに びじゅつかんへ いきます。",
+          "romaji": "Nichiyōbi ni bijutsukan e ikimasu.",
+          "vi": "Chủ nhật tôi đi bảo tàng mỹ thuật. (いきます học ở Bài 5)"
+        }
+      ]
+    },
+    {
+      "pattern": "N1 から N2 まで",
+      "meaning": "Từ N1 đến N2",
+      "explain": "<b>から</b> chỉ điểm bắt đầu, <b>まで</b> chỉ điểm kết thúc (thời gian hoặc nơi chốn). Có thể dùng riêng từng từ.",
+      "source": [
+        "video",
+        "pdf"
+      ],
+      "examples": [
+        {
+          "jp": "くじから ごじまで はたらきます。",
+          "romaji": "Kuji kara goji made hatarakimasu.",
+          "vi": "Tôi làm việc từ 9 giờ đến 5 giờ."
+        },
+        {
+          "jp": "ぎんこうは なんじから なんじまでですか。",
+          "romaji": "Ginkō wa nanji kara nanji made desu ka.",
+          "vi": "Ngân hàng mở từ mấy giờ đến mấy giờ?"
+        },
+        {
+          "jp": "……くじから さんじまでです。",
+          "romaji": "Kuji kara sanji made desu.",
+          "vi": "Từ 9 giờ đến 3 giờ."
+        },
+        {
+          "jp": "ひるやすみは じゅうにじから いちじまでです。",
+          "romaji": "Hiruyasumi wa jūniji kara ichiji made desu.",
+          "vi": "Giờ nghỉ trưa từ 12 giờ đến 1 giờ."
+        },
+        {
+          "jp": "ゆうびんきょくは なんじまでですか。",
+          "romaji": "Yūbinkyoku wa nanji made desu ka.",
+          "vi": "Bưu điện mở đến mấy giờ?"
+        }
+      ]
+    },
+    {
+      "pattern": "N1 と N2",
+      "meaning": "N1 và N2",
+      "explain": "<b>と</b> nối hai danh từ ngang hàng.",
+      "source": "pdf",
+      "examples": [
+        {
+          "jp": "やすみは どようびと にちようびです。",
+          "romaji": "Yasumi wa doyōbi to nichiyōbi desu.",
+          "vi": "Ngày nghỉ là thứ bảy và chủ nhật."
+        },
+        {
+          "jp": "デパートは げつようびと かようびが やすみです。",
+          "romaji": "Depāto wa getsuyōbi to kayōbi ga yasumi desu.",
+          "vi": "Cửa hàng bách hoá nghỉ thứ hai và thứ ba. (câu mở rộng)"
+        }
+      ]
+    },
+    {
+      "pattern": "なんようびですか",
+      "meaning": "Thứ mấy?",
+      "explain": "Hỏi thứ trong tuần bằng <b>なんようび</b>. Trả lời bằng tên thứ + です.",
+      "source": "pdf",
+      "examples": [
+        {
+          "jp": "きょうは なんようびですか。",
+          "romaji": "Kyō wa nan'yōbi desu ka.",
+          "vi": "Hôm nay thứ mấy?"
+        },
+        {
+          "jp": "……すいようびです。",
+          "romaji": "Suiyōbi desu.",
+          "vi": "Thứ tư."
+        },
+        {
+          "jp": "しけんは なんようびですか。",
+          "romaji": "Shiken wa nan'yōbi desu ka.",
+          "vi": "Kỳ thi vào thứ mấy?"
+        },
+        {
+          "jp": "……もくようびです。",
+          "romaji": "Mokuyōbi desu.",
+          "vi": "Thứ năm."
+        }
+      ]
+    },
+    {
+      "pattern": "～ね",
+      "meaning": "… nhỉ (mong người nghe đồng tình)",
+      "explain": "<b>ね</b> đặt cuối câu khi người nói mong người nghe đồng tình, cảm thông, hoặc để xác nhận lại điều cả hai đều biết.",
+      "note": "Trong tài liệu chưa có — bổ sung theo Minna no Nihongo Bài 4 (hội thoại: たいへんですね).",
+      "source": "minna",
+      "examples": [
+        {
+          "jp": "まいばん じゅうにじまで べんきょうします。",
+          "romaji": "Maiban jūniji made benkyō shimasu.",
+          "vi": "Tối nào tôi cũng học đến 12 giờ."
+        },
+        {
+          "jp": "……たいへんですね。",
+          "romaji": "Taihen desu ne.",
+          "vi": "Vất vả nhỉ."
+        },
+        {
+          "jp": "あしたは どようびですね。",
+          "romaji": "Ashita wa doyōbi desu ne.",
+          "vi": "Mai là thứ bảy nhỉ."
+        }
+      ]
+    }
+  ],
+  "fill": [
+    {
+      "q": "いま ＿＿ですか。 …よじです。",
+      "options": [
+        "なんじ",
+        "なんぷん",
+        "なんようび",
+        "いくら"
+      ],
+      "answer": "なんじ",
+      "vi": "Bây giờ là mấy giờ? — 4 giờ.",
+      "why": "Hỏi giờ → なんじ."
+    },
+    {
+      "q": "いま ＿＿ですか。 …じゅうごふんです。",
+      "options": [
+        "なんぷん",
+        "なんじ",
+        "なんようび",
+        "なんさい"
+      ],
+      "answer": "なんぷん",
+      "vi": "Mấy phút rồi? — 15 phút.",
+      "why": "Hỏi phút → なんぷん."
+    },
+    {
+      "q": "いま よじ ＿＿です。(4 giờ 10 phút)",
+      "options": [
+        "じゅっぷん",
+        "じゅうふん",
+        "じゅっふん",
+        "じゅうぷん"
+      ],
+      "answer": "じゅっぷん",
+      "vi": "Bây giờ là 4 giờ 10 phút.",
+      "why": "10 phút đọc biến âm: じゅっぷん."
+    },
+    {
+      "q": "いま ＿＿ はんです。(9 giờ rưỡi)",
+      "options": [
+        "くじ",
+        "きゅうじ",
+        "くうじ",
+        "きゅじ"
+      ],
+      "answer": "くじ",
+      "vi": "Bây giờ là 9 giờ rưỡi.",
+      "why": "9 giờ đọc là くじ, không phải きゅうじ."
+    },
+    {
+      "q": "かいぎは ＿＿からです。(4 giờ)",
+      "options": [
+        "よじ",
+        "よんじ",
+        "しじ",
+        "よっじ"
+      ],
+      "answer": "よじ",
+      "vi": "Cuộc họp bắt đầu từ 4 giờ.",
+      "why": "4 giờ đọc là よじ (không phải よんじ)."
+    },
+    {
+      "q": "いま ごご にじ ＿＿です。(2 giờ 30)",
+      "options": [
+        "はん",
+        "はんぶん",
+        "さんじゅう",
+        "ふん"
+      ],
+      "answer": "はん",
+      "vi": "Bây giờ là 2 giờ rưỡi chiều.",
+      "why": "30 phút = はん (rưỡi)."
+    },
+    {
+      "q": "まいあさ ろくじ＿＿ おきます。",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "まで"
+      ],
+      "answer": "に",
+      "vi": "Mỗi sáng tôi dậy lúc 6 giờ.",
+      "why": "Thời gian có số → thêm に."
+    },
+    {
+      "q": "あした べんきょう＿＿。(Ngày mai tôi học.)",
+      "options": [
+        "します",
+        "しました",
+        "しません",
+        "しませんでした"
+      ],
+      "answer": "します",
+      "vi": "Ngày mai tôi học.",
+      "why": "Ngày mai (tương lai) → dạng ます."
+    },
+    {
+      "q": "きのう はたらき＿＿。(Hôm qua tôi đã không làm việc.)",
+      "options": [
+        "ませんでした",
+        "ません",
+        "ました",
+        "ます"
+      ],
+      "answer": "ませんでした",
+      "vi": "Hôm qua tôi đã không làm việc.",
+      "why": "Quá khứ phủ định → ませんでした."
+    },
+    {
+      "q": "きのう べんきょう＿＿。(Hôm qua tôi đã học.)",
+      "options": [
+        "しました",
+        "します",
+        "しません",
+        "しませんでした"
+      ],
+      "answer": "しました",
+      "vi": "Hôm qua tôi đã học.",
+      "why": "Quá khứ khẳng định → ました."
+    },
+    {
+      "q": "わたしは まいばん じゅういちじに ＿＿。",
+      "options": [
+        "ねます",
+        "おきます",
+        "はたらきます",
+        "おわります"
+      ],
+      "answer": "ねます",
+      "vi": "Tối nào tôi cũng ngủ lúc 11 giờ.",
+      "why": "ねます = ngủ (おきます = thức dậy)."
+    },
+    {
+      "q": "くじ＿＿ ごじまで はたらきます。",
+      "options": [
+        "から",
+        "まで",
+        "に",
+        "と"
+      ],
+      "answer": "から",
+      "vi": "Tôi làm việc từ 9 giờ đến 5 giờ.",
+      "why": "から = từ (điểm bắt đầu)."
+    },
+    {
+      "q": "ぎんこうは さんじ＿＿です。(mở đến 3 giờ)",
+      "options": [
+        "まで",
+        "から",
+        "に",
+        "と"
+      ],
+      "answer": "まで",
+      "vi": "Ngân hàng mở đến 3 giờ.",
+      "why": "まで = đến (điểm kết thúc)."
+    },
+    {
+      "q": "やすみは どようび＿＿ にちようびです。",
+      "options": [
+        "と",
+        "も",
+        "の",
+        "から"
+      ],
+      "answer": "と",
+      "vi": "Ngày nghỉ là thứ bảy và chủ nhật.",
+      "why": "と nối hai danh từ: thứ bảy và chủ nhật."
+    },
+    {
+      "q": "きょうは ＿＿ですか。 …すいようびです。",
+      "options": [
+        "なんようび",
+        "なんじ",
+        "なんぷん",
+        "なんさい"
+      ],
+      "answer": "なんようび",
+      "vi": "Hôm nay thứ mấy? — Thứ tư.",
+      "why": "Hỏi thứ → なんようび."
+    },
+    {
+      "q": "まいばん じゅうにじまで べんきょうします。 …たいへんです＿＿。",
+      "options": [
+        "ね",
+        "か",
+        "も",
+        "の"
+      ],
+      "answer": "ね",
+      "vi": "Tối nào tôi cũng học đến 12 giờ. — Vất vả nhỉ.",
+      "why": "ね cuối câu: mong người nghe đồng cảm (vất vả nhỉ)."
+    }
+  ],
+  "order": [
+    {
+      "vi": "Bây giờ là 4 giờ 5 phút.",
+      "words": [
+        "いま",
+        "よじ",
+        "ごふん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Bây giờ là 9 giờ rưỡi.",
+      "words": [
+        "いま",
+        "くじ",
+        "はん",
+        "です"
+      ]
+    },
+    {
+      "vi": "Mỗi sáng tôi dậy lúc 6 giờ.",
+      "words": [
+        "わたし",
+        "は",
+        "まいあさ",
+        "ろくじ",
+        "に",
+        "おきます"
+      ]
+    },
+    {
+      "vi": "Ngày mai tôi học.",
+      "words": [
+        "わたし",
+        "は",
+        "あした",
+        "べんきょうします"
+      ]
+    },
+    {
+      "vi": "Hôm qua tôi đã không làm việc.",
+      "words": [
+        "わたし",
+        "は",
+        "きのう",
+        "はたらきませんでした"
+      ]
+    },
+    {
+      "vi": "Tôi làm việc từ 9 giờ đến 5 giờ.",
+      "words": [
+        "くじ",
+        "から",
+        "ごじ",
+        "まで",
+        "はたらきます"
+      ]
+    },
+    {
+      "vi": "Ngân hàng mở từ mấy giờ đến mấy giờ?",
+      "words": [
+        "ぎんこう",
+        "は",
+        "なんじ",
+        "から",
+        "なんじ",
+        "まで",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Ngày nghỉ là thứ bảy và chủ nhật.",
+      "words": [
+        "やすみ",
+        "は",
+        "どようび",
+        "と",
+        "にちようび",
+        "です"
+      ]
+    },
+    {
+      "vi": "Hôm nay thứ mấy?",
+      "words": [
+        "きょう",
+        "は",
+        "なんようび",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Giờ nghỉ trưa từ 12 giờ đến 1 giờ.",
+      "words": [
+        "ひるやすみ",
+        "は",
+        "じゅうにじ",
+        "から",
+        "いちじ",
+        "まで",
+        "です"
+      ]
+    },
+    {
+      "vi": "Bưu điện mở đến mấy giờ?",
+      "words": [
+        "ゆうびんきょく",
+        "は",
+        "なんじ",
+        "まで",
+        "です",
+        "か"
+      ]
+    },
+    {
+      "vi": "Tối nào tôi cũng ngủ lúc 11 giờ.",
+      "words": [
+        "まいばん",
+        "じゅういちじ",
+        "に",
+        "ねます"
+      ]
+    },
+    {
+      "vi": "Kỳ thi vào thứ năm.",
+      "words": [
+        "しけん",
+        "は",
+        "もくようび",
+        "です"
+      ]
+    }
+  ],
+  "corrections": [
+    "PDF ghi 'ゆうびんきよく' → sửa thành 'ゆうびんきょく'"
+  ],
+  "notes": {
+    "vocab": "Thứ trong tuần = chữ đầu + <b>ようび</b>. Giờ: 4じ = よじ, 7じ = しちじ, 9じ = くじ; bảng giờ và phút ở mục <a href=\"#so-dem\">Số đếm</a>.",
+    "vocabSource": "Từ vựng lấy theo bảng từ だい４か trong video bài giảng MẪU (Bai4_bai-giang_MAU.mp4) dùng để chạy thử /cap-nhat; cột romaji là cách viết chuẩn (Hepburn).",
+    "grammarSource": "Ngữ pháp theo video bài giảng MẪU và tài liệu NGU_PHAP_BAI_4_mau.pdf (file mẫu chạy thử /cap-nhat); mẫu 〜ね bổ sung theo giáo trình Minna no Nihongo."
+  }
+}
