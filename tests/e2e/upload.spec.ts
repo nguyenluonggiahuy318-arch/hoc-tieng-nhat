@@ -128,3 +128,15 @@ test('mã GitHub không nằm trong file xuất tiến độ', async ({ page }) 
   expect(text).toContain('hoc-tieng-nhat');
   expect(text).not.toContain('github_pat_');
 });
+
+test('cách dự phòng (video chạy nhanh ×16 rồi chụp khung) cũng cắt đúng 3 slide', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('hn-debug.videoMode', 'play'));
+  const rec = await mockGitHub(page);
+  const up = await connect(page);
+  const canWebm = await page.evaluate(() => !!document.createElement('video').canPlayType('video/webm; codecs="vp8"'));
+  test.skip(!canWebm, 'trình duyệt test không đọc được WebM');
+  await up.getByTestId('upload-input').setInputFiles([{ name: 'Bai5_video.webm', mimeType: 'video/webm', buffer: WEBM }]);
+  await up.getByTestId('upload-send').click();
+  await expect(up.getByTestId('upload-result')).toContainText('Đã gửi', { timeout: 60_000 });
+  expect(rec.treePaths.filter((x) => x.includes('-khung-')).length).toBe(3);
+});
